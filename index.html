@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <title>Submit To God Alone</title>
 
 <style>
 body{
 font-family: Arial, sans-serif;
-max-width:1000px;
-margin:auto;
-padding:40px;
+margin:0;
 line-height:1.7;
 background:#ffffff;
 color:#222;
 }
 
-h1{
-font-size:56px;
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+border-bottom:1px solid #eee;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#0d3b66;
+font-weight:bold;
+}
+
+.logo{
+font-weight:bold;
+font-size:20px;
+color:#0d3b66;
+}
+
+.hero{
 text-align:center;
-margin-top:50px;
+padding:90px 30px 70px;
+background:#f7f9fc;
+}
+
+h1{
+font-size:58px;
+margin-bottom:20px;
 }
 
 .quote{
-text-align:center;
 font-size:24px;
-margin-bottom:40px;
+margin-bottom:10px;
 }
 
-.section{
-margin-top:50px;
+.ref{
+font-weight:bold;
+color:#0d3b66;
 }
 
 .button{
@@ -41,69 +64,128 @@ text-decoration:none;
 border-radius:6px;
 }
 
-.center{
+.container{
+max-width:1000px;
+margin:auto;
+padding:50px 30px;
+}
+
+.section{
+margin-bottom:50px;
+}
+
+.mission{
+background:#fff8e6;
+padding:30px;
+border-left:5px solid #d4af37;
+margin-bottom:50px;
+}
+
+footer{
+text-align:center;
+background:#0d3b66;
+color:white;
+padding:40px 20px;
+}
+
+footer a{
+color:white;
+}
+
+@media(max-width:700px){
+nav{
+display:block;
 text-align:center;
 }
-</style>
 
+nav a{
+display:block;
+margin:10px 0;
+}
+
+h1{
+font-size:40px;
+}
+}
+</style>
 </head>
 
 <body>
 
+<nav>
+<div class="logo">Submit To God Alone</div>
+<div>
+<a href="index.html">Home</a>
+<a href="#">Start Here</a>
+<a href="#">Quran</a>
+<a href="#">Evidence</a>
+<a href="#">Appendices</a>
+<a href="#">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
 <h1>Submit To God Alone</h1>
 
 <p class="quote">
 "The only religion acceptable to GOD is Submission."
 </p>
 
-<div class="center">
+<p class="ref">Quran 3:19</p>
 
 <a href="#" class="button">Read The Quran</a>
-
 <a href="#" class="button">Start Here</a>
-
 <a href="#" class="button">Evidence & Proof</a>
-
 <a href="#" class="button">Appendices</a>
+</section>
 
+<div class="container">
+
+<div class="mission">
+<h2>Our Mission</h2>
+<p>
+To faithfully present God's message, encourage people to read the Quran for themselves, and invite all people to worship God Alone.
+</p>
 </div>
 
 <div class="section">
-
 <h2>What Is Submission?</h2>
-
 <p>
 Submission means recognizing God's absolute authority and devoting our worship absolutely to God Alone.
 </p>
-
 </div>
 
 <div class="section">
-
 <h2>Read The Quran</h2>
-
 <p>
 Explore God's final message to humanity and read the Authorized English Version online.
 </p>
-
 </div>
 
 <div class="section">
-
 <h2>Start Your Journey</h2>
-
 <p>
 Whether you are new to Submission or seeking a closer relationship with your Creator, begin here.
 </p>
+</div>
+
+<div class="section">
+<h2>Evidence & Proof</h2>
+<p>
+Explore the Quran's mathematical structure, fulfilled prophecies, and other evidence supporting its divine origin.
+</p>
+</div>
 
 </div>
 
-<hr>
-
-<p style="text-align:center;">
-info@submittogod.org
-</p>
+<footer>
+<h3>SubmitToGod.org</h3>
+<p>Worship God Alone</p>
+<p>info@submittogod.org</p>
+<p>"You alone we worship. You alone we ask for help."</p>
+<p>Quran 1:5</p>
+<p>Praise God</p>
+</footer>
 
 </body>
-
 </html>
