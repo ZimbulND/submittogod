@@ -3,71 +3,153 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Appendices - Submit To God Alone</title>
+<title>Appendices</title>
 
 <style>
 body{
   font-family:Arial,sans-serif;
   margin:0;
-  background:#f8f9fa;
+  line-height:1.7;
   color:#222;
+  background:#fff;
 }
 
 nav{
-  background:#fff;
-  padding:20px 40px;
   display:flex;
   justify-content:space-between;
   align-items:center;
-  border-bottom:1px solid #ddd;
+  padding:18px 45px;
+  border-bottom:1px solid #eee;
+  background:white;
+  position:sticky;
+  top:0;
+  z-index:1000;
 }
 
 .logo{
-  font-size:32px;
+  font-size:20px;
   font-weight:bold;
+  color:#0d3b66;
 }
 
 nav a{
   margin-left:20px;
   text-decoration:none;
-  color:#222;
   font-weight:bold;
+  color:#0d3b66;
 }
 
 .container{
-  max-width:1200px;
+  max-width:1000px;
   margin:auto;
-  padding:60px 20px;
+  padding:60px 30px;
+}
+
+.banner{
+  text-align:center;
+  letter-spacing:0.12em;
+  font-size:28px;
+  font-weight:bold;
+  color:#0d3b66;
+  margin:10px 0 35px;
 }
 
 h1{
   text-align:center;
-  margin-bottom:20px;
+  color:#0d3b66;
+  font-size:42px;
+  margin:0 0 12px;
 }
 
-.intro{
+.toc-note{
   text-align:center;
-  max-width:800px;
-  margin:auto;
-  margin-bottom:50px;
+  color:#555;
+  font-size:0.95em;
+  max-width:720px;
+  margin:0 auto 40px;
+  padding:0 8px;
+  overflow-wrap:anywhere;
 }
 
-.cards{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:20px;
+.toc{
+  width:100%;
+  border-collapse:collapse;
 }
 
-.card{
-  background:white;
-  border:1px solid #ddd;
-  border-radius:10px;
-  padding:20px;
-  box-shadow:0 2px 5px rgba(0,0,0,.08);
+.toc th,
+.toc td{
+  padding:12px 14px;
+  border-bottom:1px solid #ddd;
+  text-align:left;
+  vertical-align:top;
 }
 
-.card h3{
-  margin-top:0;
+.toc td:nth-child(2){
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+
+.toc th{
+  background:#f5f5f5;
+  color:#0d3b66;
+}
+
+.toc .num{
+  width:3.5em;
+  white-space:nowrap;
+}
+
+.toc .printed{
+  width:6.5em;
+  white-space:nowrap;
+  color:#555;
+  font-variant-numeric:tabular-nums;
+}
+
+.toc a{
+  color:#0d3b66;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.toc a:hover{
+  text-decoration:underline;
+}
+
+.toc .pending{
+  color:#666;
+}
+
+@media (max-width:700px){
+  nav{
+    flex-direction:column;
+    align-items:flex-start;
+    padding:16px 20px;
+    gap:12px;
+  }
+  nav > div:last-child{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px 16px;
+  }
+  nav a{
+    margin-left:0;
+    margin-right:0;
+  }
+  .container{
+    padding:40px 18px;
+  }
+  h1{
+    font-size:32px;
+  }
+  .banner{
+    font-size:22px;
+  }
+  .toc th,
+  .toc td{
+    padding:10px 8px;
+    font-size:0.95em;
+  }
 }
 </style>
 </head>
@@ -76,7 +158,6 @@ h1{
 
 <nav>
 <div class="logo">Submit To God Alone</div>
-
 <div>
 <a href="index.html">Home</a>
 <a href="start-here.html">Start Here</a>
@@ -88,82 +169,215 @@ h1{
 
 <div class="container">
 
+<p class="banner">APPENDICES</p>
+
 <h1>Appendices</h1>
 
-<p class="intro">
-The appendices provide additional explanations,
-evidence, and study material related to the Quran.
-Readers are encouraged to verify everything personally.
+<p class="toc-note">
+Printed page numbers are from the Authorized English Version edition and are shown for reference only; they are not used for web navigation.
 </p>
 
-<div class="cards">
-
-<div class="card">
-<h3>Appendix 1</h3>
-<p>One of the Great Miracles</p>
-</div>
-
-<div class="card">
-<h3>Appendix 2</h3>
-<p>God's Messenger of the Covenant</p>
-</div>
-
-<div class="card">
-<h3>Appendix 3</h3>
-<p>Specific Prophecies</p>
-</div>
-
-<div class="card">
-<h3>Appendix 4</h3>
-<p>Why Was the Quran Revealed in Arabic?</p>
-</div>
-
-<div class="card">
-<h3>Appendix 5</h3>
-<p>Preservation of the Quran</p>
-</div>
-
-<div class="card">
-<h3>Appendix 6</h3>
-<p>The Great Debate</p>
-</div>
-
-<div class="card">
-<h3>Appendix 7</h3>
-<p>The Miracle in Al-Fatihah</p>
-</div>
-
-<div class="card">
-<h3>Appendix 8</h3>
-<p>Frequently Asked Questions</p>
-</div>
-
-<div class="card">
-<h3>Appendix 9</h3>
-<p>Abraham: Original Messenger of Submission</p>
-</div>
-
-<div class="card">
-<h3>Appendix 10</h3>
-<p>The Day of Judgment</p>
-</div>
-
-<div class="card">
-<h3>Appendix 11</h3>
-<p>The Day of Resurrection</p>
-</div>
-
-<div class="card">
-<h3>Appendix 12</h3>
-<p>Role of the Prophet Muhammad</p>
-</div>
-
-<div class="card">
-<h3>Appendix 13-38</h3>
-<p>Additional appendices coming soon.</p>
-</div>
-
-</div>
+<table class="toc">
+<thead>
+<tr>
+<th class="num">No.</th>
+<th>Appendix</th>
+<th class="printed">Printed page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="num">1</td>
+<td><a href="appendix-001.html">One of the Great Miracles [74:35]</a></td>
+<td class="printed">375</td>
+</tr>
+<tr>
+<td class="num">2</td>
+<td><span class="pending">God’s Messenger of the Covenant [3:81]</span></td>
+<td class="printed">404</td>
+</tr>
+<tr>
+<td class="num">3</td>
+<td><span class="pending">We Made the Quran Easy [54:17]</span></td>
+<td class="printed">416</td>
+</tr>
+<tr>
+<td class="num">4</td>
+<td><span class="pending">Why Was the Quran Revealed in Arabic?</span></td>
+<td class="printed">417</td>
+</tr>
+<tr>
+<td class="num">5</td>
+<td><span class="pending">Heaven and Hell</span></td>
+<td class="printed">418</td>
+</tr>
+<tr>
+<td class="num">6</td>
+<td><span class="pending">Greatness of God</span></td>
+<td class="printed">419</td>
+</tr>
+<tr>
+<td class="num">7</td>
+<td><span class="pending">Why Were We Created?</span></td>
+<td class="printed">420</td>
+</tr>
+<tr>
+<td class="num">8</td>
+<td><span class="pending">The Myth of Intercession</span></td>
+<td class="printed">422</td>
+</tr>
+<tr>
+<td class="num">9</td>
+<td><span class="pending">Abraham: Original Messenger of Islam</span></td>
+<td class="printed">423</td>
+</tr>
+<tr>
+<td class="num">10</td>
+<td><span class="pending">God’s Usage of the Plural Tense</span></td>
+<td class="printed">424</td>
+</tr>
+<tr>
+<td class="num">11</td>
+<td><span class="pending">The Day of Resurrection</span></td>
+<td class="printed">425</td>
+</tr>
+<tr>
+<td class="num">12</td>
+<td><span class="pending">Role of the Prophet Muhammad</span></td>
+<td class="printed">426</td>
+</tr>
+<tr>
+<td class="num">13</td>
+<td><span class="pending">The First Pillar of Islam</span></td>
+<td class="printed">427</td>
+</tr>
+<tr>
+<td class="num">14</td>
+<td><span class="pending">Predestination</span></td>
+<td class="printed">428</td>
+</tr>
+<tr>
+<td class="num">15</td>
+<td><span class="pending">Religious Duties: Gift from God</span></td>
+<td class="printed">429</td>
+</tr>
+<tr>
+<td class="num">16</td>
+<td><span class="pending">Dietary Prohibition</span></td>
+<td class="printed">435</td>
+</tr>
+<tr>
+<td class="num">17</td>
+<td><span class="pending">Death</span></td>
+<td class="printed">435</td>
+</tr>
+<tr>
+<td class="num">18</td>
+<td><span class="pending">Quran is All You Need</span></td>
+<td class="printed">437</td>
+</tr>
+<tr>
+<td class="num">19</td>
+<td><span class="pending">Hadith and Sunna: Satanic Innovations</span></td>
+<td class="printed">437</td>
+</tr>
+<tr>
+<td class="num">20</td>
+<td><span class="pending">Quran: Unlike Any Other Book</span></td>
+<td class="printed">438</td>
+</tr>
+<tr>
+<td class="num">21</td>
+<td><span class="pending">Satan: Fallen Angel</span></td>
+<td class="printed">439</td>
+</tr>
+<tr>
+<td class="num">22</td>
+<td><span class="pending">Jesus</span></td>
+<td class="printed">439</td>
+</tr>
+<tr>
+<td class="num">23</td>
+<td><span class="pending">Chronological Order of Revelation</span></td>
+<td class="printed">442</td>
+</tr>
+<tr>
+<td class="num">24</td>
+<td><span class="pending">Two False Verses Removed from the Quran</span></td>
+<td class="printed">443</td>
+</tr>
+<tr>
+<td class="num">25</td>
+<td><span class="pending">End of the World</span></td>
+<td class="printed">466</td>
+</tr>
+<tr>
+<td class="num">26</td>
+<td><span class="pending">The Three Messengers of Islam</span></td>
+<td class="printed">468</td>
+</tr>
+<tr>
+<td class="num">27</td>
+<td><span class="pending">Who Is Your God?</span></td>
+<td class="printed">472</td>
+</tr>
+<tr>
+<td class="num">28</td>
+<td><span class="pending">Muhammad Wrote God’s Revelations With His Own Hand</span></td>
+<td class="printed">473</td>
+</tr>
+<tr>
+<td class="num">29</td>
+<td><span class="pending">The Missing Basmalah</span></td>
+<td class="printed">474</td>
+</tr>
+<tr>
+<td class="num">30</td>
+<td><span class="pending">Polygamy</span></td>
+<td class="printed">477</td>
+</tr>
+<tr>
+<td class="num">31</td>
+<td><span class="pending">Evolution: A Divinely Guided Process</span></td>
+<td class="printed">478</td>
+</tr>
+<tr>
+<td class="num">32</td>
+<td><span class="pending">The Crucial Age of 40</span></td>
+<td class="printed">479</td>
+</tr>
+<tr>
+<td class="num">33</td>
+<td><span class="pending">Why Did God Send a Messenger Now?</span></td>
+<td class="printed">480</td>
+</tr>
+<tr>
+<td class="num">34</td>
+<td><span class="pending">Virginity/Chastity: A Trait of the True Believers</span></td>
+<td class="printed">483</td>
+</tr>
+<tr>
+<td class="num">35</td>
+<td><span class="pending">Drugs &amp; Alcohol</span></td>
+<td class="printed">483</td>
+</tr>
+<tr>
+<td class="num">36</td>
+<td><span class="pending">What Price A Great Nation</span></td>
+<td class="printed">484</td>
+</tr>
+<tr>
+<td class="num">37</td>
+<td><span class="pending">Criminal Justice in Islam</span></td>
+<td class="printed">485</td>
+</tr>
+<tr>
+<td class="num">38</td>
+<td><span class="pending">The Creator’s Signature</span></td>
+<td class="printed">486</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
