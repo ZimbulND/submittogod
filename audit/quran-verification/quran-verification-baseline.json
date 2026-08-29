@@ -1,0 +1,221 @@
+{
+  "recordType": "quran-canonical-fidelity-baseline",
+  "recordVersion": "1.0.0",
+  "generatedAt": "2026-08-29T00:17:58.288Z",
+  "status": "COMPLETE",
+  "conclusion": {
+    "statement": "QURAN CANONICAL FIDELITY VERIFICATION — COMPLETE",
+    "allSurasClosed": "ALL 114 SURAS CLOSED",
+    "unfixedQuranDiscrepancies": 0,
+    "unresolvedCanonicalItems": 0
+  },
+  "suras": {
+    "first": 1,
+    "last": 114,
+    "count": 114
+  },
+  "repository": {
+    "path": "C:/Users/Owner/OneDrive/Documents/GitHub/submittogod",
+    "branch": "main",
+    "headSha": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+    "synchronizedWithOrigin": true,
+    "headCommitMessage": "Correct Appendix 1 AEV caption bleed"
+  },
+  "canonicalPdf": {
+    "path": "sources/authorized-english-version/authorized-english-version.pdf",
+    "sha256": "40792b2d9b2464747d4e3cf83f72165197b277a0b6691e6e058277e7eda78055",
+    "bytes": 7247548,
+    "pageCount": 560
+  },
+  "phases": [
+    {
+      "phase": "B1",
+      "scope": "Suras 1–20",
+      "finalStatus": "CLOSED — PASS",
+      "unfixedDiscrepancies": 0,
+      "unresolvedCanonicalItems": 0,
+      "sourceHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "primaryArtifacts": [
+        "%TEMP%\\aev-pdf-extract\\fidelity-b1.2\\b1.2-final.json",
+        "%TEMP%\\aev-pdf-extract\\fidelity-b1-final-closure\\b1-final-closure.json"
+      ],
+      "correctionArtifacts": [
+        {
+          "type": "git-commit",
+          "sha": "9df7bbb2cd8241a9f5ef858bdee8ea52e273db1a",
+          "message": "Correct B1 AEV fidelity discrepancies"
+        }
+      ],
+      "notes": "Accepted closure established after separately authorized correction commit 9df7bbb incorporated into verified baseline. Intermediate b1-final-closure.json (pre-correction) shows B1 NOT CLOSED — superseded by correction + accepted authorization."
+    },
+    {
+      "phase": "B2",
+      "scope": "Suras 21–50",
+      "finalStatus": "CLOSED — PASS",
+      "unfixedDiscrepancies": 0,
+      "unresolvedCanonicalItems": 0,
+      "sourceHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "primaryArtifacts": [
+        "%TEMP%\\aev-pdf-extract\\fidelity-b2\\b2.6\\b2.6-results.json",
+        "%TEMP%\\aev-pdf-extract\\fidelity-b2\\b2.5\\visual-closure-registry.json",
+        "%TEMP%\\aev-pdf-extract\\fidelity-b2\\b2.5\\results-merged.json"
+      ],
+      "toolingGates": [
+        "B2.4 mid-verse logical parser",
+        "B2.5 visual-closure state preservation",
+        "B2.6 heading-state reconciliation"
+      ],
+      "accounting": {
+        "versesClosed": 2119,
+        "footnotesClosed": 144,
+        "uniqueHeadingsClosed": 394
+      },
+      "notes": "Supersedes intermediate b2-summary-final.json (B2 NOT CLOSED). Final authority: b2.6-results.json b2Verdict."
+    },
+    {
+      "phase": "B3",
+      "scope": "Suras 51–80",
+      "finalStatus": "CLOSED — PASS",
+      "unfixedDiscrepancies": 0,
+      "unresolvedCanonicalItems": 0,
+      "sourceHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "primaryArtifacts": [
+        "%TEMP%\\aev-pdf-extract\\fidelity-b3\\b3-summary-final.json",
+        "%TEMP%\\aev-pdf-extract\\fidelity-b3\\results-final.json"
+      ],
+      "accounting": {
+        "versesClosed": 1125,
+        "footnotesClosed": 32,
+        "uniqueHeadingsClosed": 55
+      }
+    },
+    {
+      "phase": "B4",
+      "scope": "Suras 81–114",
+      "finalStatus": "CLOSED — PASS",
+      "unfixedDiscrepancies": 0,
+      "unresolvedCanonicalItems": 0,
+      "sourceHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "primaryArtifacts": [
+        "%TEMP%\\aev-pdf-extract\\fidelity-b4\\b4-summary-final.json",
+        "%TEMP%\\aev-pdf-extract\\fidelity-b4\\results-final.json"
+      ],
+      "accounting": {
+        "versesClosed": 436,
+        "footnotesClosed": 11,
+        "uniqueHeadingsClosed": 4
+      }
+    }
+  ],
+  "correctionsIncorporated": [
+    {
+      "ref": "*7:9",
+      "sura": 7,
+      "type": "footnote — truncated website content",
+      "description": "Footnote missing final word \"soul.\"; corrected to match canonical PDF.",
+      "correctionCommit": "9df7bbb2cd8241a9f5ef858bdee8ea52e273db1a",
+      "closureStatus": "INCORPORATED",
+      "evidence": "fidelity-b1-final-closure/b1-final-closure.json correctionQueue; b1.2 gate1 *7:9"
+    },
+    {
+      "ref": "*9:1 / *9:127",
+      "sura": 9,
+      "type": "structural/markup — footnote duplication",
+      "description": "Removed duplicate split *9:1 footnote block; retained canonical combined *9:1 & *9:127 footnote matching PDF.",
+      "correctionCommit": "9df7bbb2cd8241a9f5ef858bdee8ea52e273db1a",
+      "closureStatus": "INCORPORATED",
+      "evidence": "b1-final-closure.json correctionQueue; b1.2-final.json gate7 *9:1"
+    },
+    {
+      "ref": "17:110",
+      "sura": 17,
+      "type": "structural/markup — mid-verse heading boundary",
+      "description": "Separated heading \"Tone of the Contact Prayers (Salat)\" and salat-tone continuation from verse 110 div into proper heading + unnumbered continuation structure.",
+      "correctionCommit": "9df7bbb2cd8241a9f5ef858bdee8ea52e273db1a",
+      "closureStatus": "INCORPORATED",
+      "evidence": "b1-final-closure.json correctionQueue; b1.2-final.json gate7"
+    },
+    {
+      "ref": "19:58–59",
+      "sura": 19,
+      "type": "structural/markup — heading inside verse div",
+      "description": "Removed heading \"Losing the Contact Prayers (Salat)\" from inside verse 58; placed as separate heading before verse 59.",
+      "correctionCommit": "9df7bbb2cd8241a9f5ef858bdee8ea52e273db1a",
+      "closureStatus": "INCORPORATED",
+      "evidence": "b1-final-closure.json correctionQueue; b1.2-final.json gate7"
+    },
+    {
+      "ref": "Appendix 1",
+      "sura": null,
+      "type": "Appendix body-text corruption (caption bleed) — NOT Quran verification",
+      "description": "Appendix 1 caption/body bleed corrected separately. Does not certify Appendices generally.",
+      "correctionCommit": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "closureStatus": "INCORPORATED (Appendix only)",
+      "evidence": "git commit message: Correct Appendix 1 AEV caption bleed"
+    }
+  ],
+  "b2VerifierFalsePositives": [
+    {
+      "ref": "29:17",
+      "initialClassification": "MISSING WEBSITE CONTENT (B2.3 visual)",
+      "finalClassification": "MATCH — verifier false positive",
+      "rootCause": "B2.4 logical HTML parser failed to merge unnumbered continuation after mid-verse heading \"God: The Only Source of Provisions\"",
+      "evidence": "fidelity-b2/b2.5/visual-closure-registry.json; b2.4/b2.4-results.json"
+    },
+    {
+      "ref": "42:13",
+      "initialClassification": "MISSING WEBSITE CONTENT (B2.3 visual)",
+      "finalClassification": "MATCH — verifier false positive",
+      "rootCause": "B2.4 parser failed to merge continuation after heading \"Monotheists vs. Idol Worshipers\"",
+      "evidence": "fidelity-b2/b2.5/visual-closure-registry.json"
+    },
+    {
+      "ref": "47:38",
+      "initialClassification": "MISSING WEBSITE CONTENT (B2.3 visual)",
+      "finalClassification": "MATCH — verifier false positive",
+      "rootCause": "B2.4 parser failed to merge bold continuation after heading \"Warning to the Arabs*\"",
+      "evidence": "fidelity-b2/b2.5/visual-closure-registry.json"
+    }
+  ],
+  "unfixedQuranDiscrepancies": 0,
+  "unresolvedCanonicalItems": 0,
+  "explicitExclusions": [
+    "Appendices 1–38 (general)",
+    "Appendix index/TOC fidelity",
+    "Front matter",
+    "Back matter",
+    "Non-Quran explanatory material",
+    "Search functionality",
+    "Navigation completeness",
+    "General website functionality",
+    "Future source changes"
+  ],
+  "futureInvalidationPolicy": {
+    "quranHtmlFileChanged": "If a verified Sura HTML SHA-256 no longer matches manifest, that Sura fidelity certification is stale; perform targeted re-verification before restoring VERIFIED status. Unchanged Suras remain certified.",
+    "canonicalPdfChanged": "If canonical PDF SHA-256 changes, Quran-wide verification baseline is stale; determine scope of PDF change before targeted or full re-verification. Do not silently apply old visual closures.",
+    "toolingChanged": "Tooling changes alone do not invalidate accepted canonical visual evidence; investigate bounded scope if new plausible error emerges."
+  },
+  "validation": {
+    "suraFileCount": 114,
+    "expectedSuraCount": 114,
+    "suras1to114Complete": true,
+    "noDuplicates": true,
+    "noMissing": true,
+    "pdfSha256Computed": true,
+    "headMatchesExpected": true,
+    "phasesRepresented": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "allPhasesClosedPass": true,
+    "unfixedQuranDiscrepancies": 0,
+    "unresolvedQuranCanonicalItems": 0,
+    "appendixNotQuranCertified": true,
+    "packageInternallyConsistent": true
+  },
+  "evidenceRoot": "C:\\Users\\Owner\\AppData\\Local\\Temp\\aev-pdf-extract",
+  "auditTimeEvidenceNote": "Phase audit artifacts under evidenceRoot and %TEMP% paths in primaryArtifacts were audit-time local working files on the verifier machine. They are not repository dependencies and are not required to interpret this permanent record. Verified Quran content is identified by repository.headSha and sura-file-hashes.json / canonicalPdf.sha256 in this directory.",
+  "verifiedQuranContentBaselineHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542"
+}

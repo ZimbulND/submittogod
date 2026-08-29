@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-08-29T00:17:58.288Z",
+  "purpose": "Traceability index for B1–B4 accepted final artifacts. Does not duplicate full audit data.",
+  "auditTimeEvidenceNote": "Relative paths under fidelity-b1.* / fidelity-b2 / fidelity-b3 / fidelity-b4 refer to audit-time local working directories (typically %TEMP%\\aev-pdf-extract\\ on the verifier machine). These artifacts are not repository dependencies.",
+  "phases": [
+    {
+      "phase": "B1",
+      "scope": "Suras 1–20",
+      "acceptedStatus": "CLOSED — PASS",
+      "primaryFinalArtifacts": [
+        {
+          "path": "fidelity-b1.2/b1.2-final.json",
+          "role": "B1.2 quantitative gate and structural analysis"
+        },
+        {
+          "path": "fidelity-b1-final-closure/b1-final-closure.json",
+          "role": "Pre-correction discrepancy register and correctionQueue (superseded after 9df7bbb)"
+        }
+      ],
+      "correctionArtifacts": [
+        {
+          "path": "git:9df7bbb2cd8241a9f5ef858bdee8ea52e273db1a",
+          "role": "B1 Quran corrections applied to website baseline"
+        }
+      ],
+      "sourceHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "finalUnresolvedCount": 0,
+      "limitation": "No single temp artifact states \"B1 CLOSED — PASS\"; accepted closure established by authorized correction phase + commit 9df7bbb at locked HEAD."
+    },
+    {
+      "phase": "B2",
+      "scope": "Suras 21–50",
+      "acceptedStatus": "CLOSED — PASS",
+      "primaryFinalArtifacts": [
+        {
+          "path": "fidelity-b2/b2.6/b2.6-results.json",
+          "role": "Final B2 accounting and b2Verdict"
+        },
+        {
+          "path": "fidelity-b2/b2.5/visual-closure-registry.json",
+          "role": "Two-layer visual closure state"
+        },
+        {
+          "path": "fidelity-b2/b2.5/results-merged.json",
+          "role": "Merged automated + final audit results"
+        },
+        {
+          "path": "fidelity-b2/b2.4/b2.4-results.json",
+          "role": "Mid-verse parser hardening evidence"
+        }
+      ],
+      "correctionArtifacts": [],
+      "sourceHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "finalUnresolvedCount": 0,
+      "note": "Supersedes fidelity-b2/b2-summary-final.json (intermediate B2 NOT CLOSED) and b2-final-closure.json confirmedDiscrepancies for 29:17/42:13/47:38 (reclassified false positives via B2.4)."
+    },
+    {
+      "phase": "B3",
+      "scope": "Suras 51–80",
+      "acceptedStatus": "CLOSED — PASS",
+      "primaryFinalArtifacts": [
+        {
+          "path": "fidelity-b3/b3-summary-final.json",
+          "role": "Final B3 report and accounting"
+        },
+        {
+          "path": "fidelity-b3/results-final.json",
+          "role": "Per-sura verse/footnote/heading results"
+        }
+      ],
+      "correctionArtifacts": [],
+      "sourceHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "finalUnresolvedCount": 0
+    },
+    {
+      "phase": "B4",
+      "scope": "Suras 81–114",
+      "acceptedStatus": "CLOSED — PASS",
+      "primaryFinalArtifacts": [
+        {
+          "path": "fidelity-b4/b4-summary-final.json",
+          "role": "Final B4 report and accounting"
+        },
+        {
+          "path": "fidelity-b4/results-final.json",
+          "role": "Per-sura results"
+        }
+      ],
+      "correctionArtifacts": [],
+      "sourceHead": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "finalUnresolvedCount": 0
+    }
+  ]
+}
