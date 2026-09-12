@@ -1,0 +1,221 @@
+{
+  "recordType": "aev-canonical-fidelity-evidence-index",
+  "recordVersion": "1.0.0",
+  "generatedAt": "2026-09-12T17:58:00.000Z",
+  "purpose": "Map each certified intended AEV website canonical-content scope to its strongest durable evidence, with accurate evidence-class limits.",
+  "evidenceClasses": {
+    "REPOSITORY_VERIFIABLE": "Independently confirmable from the Git repository / working tree without relying on missing TEMP files",
+    "EXISTING_PERMANENT_QURAN_PACKAGE": "Durable evidence in audit/quran-verification/",
+    "EXISTING_PERMANENT_APPENDIX_PACKAGE": "Durable evidence in audit/appendix-verification/ (includes HISTORICAL_SESSION_REPORTED limits for A1–A4)",
+    "COMMITTED_CORRECTION_HISTORY": "Git commits on main that incorporated authorized corrections",
+    "DETERMINISTIC_PRESENT_STATE_RECONCILIATION": "Repeatable present-state comparison against AEV PDF controlling boundaries",
+    "ACCEPTED_READ_ONLY_SCOPE_DETERMINATION": "Authorized read-only project determination (not a page-level content audit)"
+  },
+  "checkpointHead": "f987da888610675665adf479ac1c83c3076236f0",
+  "scopes": [
+    {
+      "id": "proclaiming",
+      "label": "Proclaiming One Unified Religion",
+      "status": "PASS / CLOSED",
+      "strongestEvidence": [
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "proclaiming-one-unified-religion.html",
+          "sha256": "7fa763ce12a4171241ee4bb9c255aeb0103fc6cfa2a2bfa1cbd1f93cd90939b1"
+        },
+        {
+          "class": "COMMITTED_CORRECTION_HISTORY",
+          "note": "Closed on main prior to final umbrella package; present-state hash locked at checkpoint"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "label": "Preface",
+      "status": "PASS / CLOSED",
+      "strongestEvidence": [
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "preface.html",
+          "sha256": "c34e0199d5f9753d3bdc1e9d9e7326e5eb19ec579cd84c7364d332287602d253"
+        },
+        {
+          "class": "COMMITTED_CORRECTION_HISTORY",
+          "note": "Closed on main prior to final umbrella package; present-state hash locked at checkpoint"
+        }
+      ]
+    },
+    {
+      "id": "introduction",
+      "label": "Introduction",
+      "status": "PASS / CLOSED",
+      "strongestEvidence": [
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "introduction.html",
+          "sha256": "098316663d25a824084fb1f9650d0d77eb97bd49913d7ff92bb1abd039874ae1"
+        },
+        {
+          "class": "COMMITTED_CORRECTION_HISTORY",
+          "note": "Closed on main prior to final umbrella package; present-state hash locked at checkpoint"
+        }
+      ]
+    },
+    {
+      "id": "quran-suras",
+      "label": "Quran Suras 1–114",
+      "status": "114/114 MATCH / locked",
+      "strongestEvidence": [
+        {
+          "class": "EXISTING_PERMANENT_QURAN_PACKAGE",
+          "artifact": "audit/quran-verification/",
+          "result": "114/114 MATCH"
+        },
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "audit/quran-verification/sura-file-hashes.json",
+          "role": "Present-state Sura hash manifest within Quran package"
+        },
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "closed-scope-hashes.json",
+          "role": "Umbrella present-state inventory including all 114 Sura HTML files at final checkpoint"
+        }
+      ],
+      "evidenceLimits": [
+        "Phase B1–B4 TEMP working artifacts are not claimed durable by this umbrella package",
+        "Quran package itself documents audit-time TEMP paths as non-repository dependencies"
+      ]
+    },
+    {
+      "id": "quran-chapters-list",
+      "label": "Quran Chapters List",
+      "status": "PASS / CLOSED",
+      "strongestEvidence": [
+        {
+          "class": "DETERMINISTIC_PRESENT_STATE_RECONCILIATION",
+          "controllingSource": "AEV PDF CONTENTS pp.9–11 Sura rows 1–114 only",
+          "artifact": "quran-chapters.html",
+          "sha256": "1dd4ff3eef718e9df5f5e4e60d851f0d38fe6a5b7a4de76e007a4b7a9797184b",
+          "result": "QURAN CHAPTERS LIST — PASS; Genuine canonical discrepancies: 0"
+        },
+        {
+          "class": "COMMITTED_CORRECTION_HISTORY",
+          "commit": "f987da888610675665adf479ac1c83c3076236f0",
+          "message": "Correct Quran chapters canonical transliterations"
+        },
+        {
+          "class": "ACCEPTED_READ_ONLY_SCOPE_DETERMINATION",
+          "determination": "PRINTED PAGE COLUMN — INTENTIONALLY OMITTED PRINT-ONLY NAVIGATION FIELD"
+        }
+      ]
+    },
+    {
+      "id": "appendix-toc",
+      "label": "Appendix TOC",
+      "status": "PASS / CLOSED",
+      "strongestEvidence": [
+        {
+          "class": "DETERMINISTIC_PRESENT_STATE_RECONCILIATION",
+          "controllingSource": "AEV PDF pages 396–397 (TOC only; body excluded)",
+          "artifact": "appendices.html",
+          "sha256": "b3877d0842d6d7e684bc2710b09ec063d42e1bcacfdbf77bc3672d58f23aad39",
+          "result": "APPENDIX TOC — PASS; Genuine canonical discrepancies: 0"
+        },
+        {
+          "class": "COMMITTED_CORRECTION_HISTORY",
+          "commit": "b2db97c536448ffd0e452315e0fd1d52d0626675",
+          "message": "Correct Appendix TOC canonical titles"
+        }
+      ]
+    },
+    {
+      "id": "appendix-bodies",
+      "label": "Appendix bodies 1–38",
+      "status": "38/38 MATCH / locked",
+      "strongestEvidence": [
+        {
+          "class": "EXISTING_PERMANENT_APPENDIX_PACKAGE",
+          "artifact": "audit/appendix-verification/",
+          "result": "38/38 MATCH"
+        },
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "audit/appendix-verification/appendix-file-hashes.json",
+          "role": "Present-state Appendix body hash manifest within Appendix package"
+        },
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "closed-scope-hashes.json",
+          "role": "Umbrella present-state inventory including all 38 Appendix body HTML files at final checkpoint"
+        }
+      ],
+      "evidenceLimits": [
+        "Appendix package explicitly classifies A1–A4 unit-level TEMP artifacts as TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE / HISTORICAL_SESSION_REPORTED where applicable",
+        "This umbrella package does not convert those historical/session findings into REPOSITORY_VERIFIABLE unit residuals",
+        "Unavailable TEMP evidence is not claimed to exist"
+      ]
+    },
+    {
+      "id": "aev-index",
+      "label": "AEV Index",
+      "status": "PASS / CLOSED",
+      "strongestEvidence": [
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "aev-index.html",
+          "sha256": "344392e24173fccb2e1e35f3f2da4461ded5c382495596728ee1325759eaff62"
+        },
+        {
+          "class": "COMMITTED_CORRECTION_HISTORY",
+          "commit": "8932e95bf4a926662d2e9928157535af3bfb5d96",
+          "message": "Restore AEV Index canonical hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "general-contents",
+      "label": "General CONTENTS",
+      "status": "CLOSED — NO SEPARATE PAGE REQUIRED",
+      "strongestEvidence": [
+        {
+          "class": "ACCEPTED_READ_ONLY_SCOPE_DETERMINATION",
+          "determination": "GENERAL CONTENTS — NO SEPARATE PAGE REQUIRED",
+          "basis": [
+            "Substantive CONTENTS information already represented across closed website scopes",
+            "Printed folios treated as print-only navigation in web context",
+            "Unique canonical CONTENTS information not otherwise represented: 0"
+          ]
+        }
+      ],
+      "note": "This is a scope determination, not a contents.html page audit"
+    },
+    {
+      "id": "final-pre-contents-scope-closure",
+      "label": "Final pre-CONTENTS bibliographic/frontispiece scope closure",
+      "status": "FINAL AEV CANONICAL SCOPE — COMPLETE",
+      "strongestEvidence": [
+        {
+          "class": "ACCEPTED_READ_ONLY_SCOPE_DETERMINATION",
+          "determination": "FINAL AEV CANONICAL SCOPE — COMPLETE",
+          "explicitExclusionsOutsideIntendedClaim": [
+            "PDF blank pages",
+            "copyright/publication boilerplate as a standalone website page",
+            "title-page facsimile",
+            "opening frontispiece layout (2:62 and 5:69 preserved in closed Quran bodies)",
+            "print-only folios/pagination",
+            "physical CONTENTS layout/furniture",
+            "search/navigation",
+            "non-canonical site functionality"
+          ]
+        }
+      ],
+      "note": "Exclusions are outside the intended website canonical-content fidelity claim; they are not unresolved discrepancies within certified scope"
+    }
+  ],
+  "explicitNonClaims": [
+    "Does not claim every physical PDF page was audited or reproduced as a website page",
+    "Does not certify search/navigation/accessibility/responsive behavior/general website functionality/deployment",
+    "Does not assert durable availability of former TEMP A1–A4 or B1–B4 working directories"
+  ]
+}

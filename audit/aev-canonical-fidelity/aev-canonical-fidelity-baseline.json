@@ -1,0 +1,160 @@
+{
+  "recordType": "aev-canonical-fidelity-baseline",
+  "recordVersion": "1.0.0",
+  "generatedAt": "2026-09-12T17:58:00.000Z",
+  "certification": {
+    "statement": "AEV Website Canonical Fidelity — COMPLETE (intended scopes)",
+    "genuineCanonicalDiscrepanciesRemainingWithinCertifiedScope": 0,
+    "limits": [
+      "Does not claim every physical PDF page was reproduced as a website page",
+      "Does not claim every physical PDF page was audited as a website page",
+      "Does not certify search, navigation, accessibility, responsive behavior, general website functionality, or deployment"
+    ]
+  },
+  "repository": {
+    "path": "C:/Users/Owner/OneDrive/Documents/GitHub/submittogod",
+    "branch": "main",
+    "headSha": "f987da888610675665adf479ac1c83c3076236f0",
+    "originMainSha": "f987da888610675665adf479ac1c83c3076236f0",
+    "aheadBehind": { "ahead": 0, "behind": 0 },
+    "synchronizedWithOrigin": true,
+    "workingTreeAtRecordCreation": "?? sources/ (and this new untracked audit/aev-canonical-fidelity/ package prior to commit)",
+    "gitStatusPorcelainExpectedBeforePackage": "?? sources/"
+  },
+  "canonicalPdf": {
+    "path": "sources/authorized-english-version/authorized-english-version.pdf",
+    "sha256": "40792b2d9b2464747d4e3cf83f72165197b277a0b6691e6e058277e7eda78055",
+    "bytes": 7247548,
+    "pageCount": 560,
+    "evidenceClass": "REPOSITORY_VERIFIABLE",
+    "notes": [
+      "PDF identity matches audit/quran-verification/quran-verification-baseline.json canonicalPdf.sha256",
+      "PDF is present on disk under untracked sources/; hash recomputed at final-package creation",
+      "sources/ remains outside git tracking by project convention"
+    ]
+  },
+  "manifests": {
+    "quran": {
+      "result": "114/114 MATCH",
+      "status": "locked",
+      "package": "audit/quran-verification/"
+    },
+    "appendixBodies": {
+      "result": "38/38 MATCH",
+      "status": "locked",
+      "package": "audit/appendix-verification/"
+    }
+  },
+  "closedScopes": [
+    {
+      "id": "proclaiming",
+      "label": "Proclaiming One Unified Religion",
+      "status": "PASS / CLOSED",
+      "primaryFile": "proclaiming-one-unified-religion.html",
+      "sha256": "7fa763ce12a4171241ee4bb9c255aeb0103fc6cfa2a2bfa1cbd1f93cd90939b1"
+    },
+    {
+      "id": "preface",
+      "label": "Preface",
+      "status": "PASS / CLOSED",
+      "primaryFile": "preface.html",
+      "sha256": "c34e0199d5f9753d3bdc1e9d9e7326e5eb19ec579cd84c7364d332287602d253"
+    },
+    {
+      "id": "introduction",
+      "label": "Introduction",
+      "status": "PASS / CLOSED",
+      "primaryFile": "introduction.html",
+      "sha256": "098316663d25a824084fb1f9650d0d77eb97bd49913d7ff92bb1abd039874ae1"
+    },
+    {
+      "id": "quran-suras",
+      "label": "Quran Suras 1–114",
+      "status": "114/114 MATCH / locked",
+      "primaryFilesGlob": "sura-001.html … sura-114.html",
+      "manifestPackage": "audit/quran-verification/"
+    },
+    {
+      "id": "quran-chapters-list",
+      "label": "Quran Chapters List",
+      "status": "PASS / CLOSED",
+      "primaryFile": "quran-chapters.html",
+      "sha256": "1dd4ff3eef718e9df5f5e4e60d851f0d38fe6a5b7a4de76e007a4b7a9797184b"
+    },
+    {
+      "id": "appendix-toc",
+      "label": "Appendix TOC",
+      "status": "PASS / CLOSED",
+      "primaryFile": "appendices.html",
+      "sha256": "b3877d0842d6d7e684bc2710b09ec063d42e1bcacfdbf77bc3672d58f23aad39"
+    },
+    {
+      "id": "appendix-bodies",
+      "label": "Appendix bodies 1–38",
+      "status": "38/38 MATCH / locked",
+      "primaryFilesGlob": "appendix-001.html … appendix-038.html",
+      "manifestPackage": "audit/appendix-verification/"
+    },
+    {
+      "id": "aev-index",
+      "label": "AEV Index",
+      "status": "PASS / CLOSED",
+      "primaryFile": "aev-index.html",
+      "sha256": "344392e24173fccb2e1e35f3f2da4461ded5c382495596728ee1325759eaff62"
+    },
+    {
+      "id": "general-contents",
+      "label": "General CONTENTS",
+      "status": "CLOSED — NO SEPARATE PAGE REQUIRED",
+      "dedicatedPage": null,
+      "determination": "GENERAL CONTENTS — NO SEPARATE PAGE REQUIRED",
+      "basis": [
+        "Substantive CONTENTS information already represented across closed website scopes",
+        "Printed folios treated as print-only navigation in web context",
+        "Unique canonical CONTENTS information not otherwise represented: 0"
+      ]
+    }
+  ],
+  "finalScopeClosure": {
+    "verdict": "FINAL AEV CANONICAL SCOPE — COMPLETE",
+    "completionRecordEligibility": "YES"
+  },
+  "explicitExclusions": {
+    "classification": "OUTSIDE THE INTENDED WEBSITE CANONICAL-CONTENT FIDELITY CLAIM",
+    "notToBeDescribedAs": [
+      "failed canonical discrepancies",
+      "missing canonical discrepancies",
+      "unresolved canonical discrepancies within certified scope"
+    ],
+    "items": [
+      "PDF blank pages",
+      "copyright/publication boilerplate as a standalone website page",
+      "title-page facsimile",
+      "opening frontispiece layout (Quran 2:62 and 5:69 themselves preserved in closed Quran bodies)",
+      "print-only folios/pagination",
+      "physical CONTENTS layout/furniture",
+      "search/navigation",
+      "non-canonical site functionality"
+    ]
+  },
+  "umbrellaHashInventory": {
+    "path": "closed-scope-hashes.json",
+    "expectedFileCount": 158,
+    "composition": {
+      "frontMatterOrListPages": 6,
+      "suraBodies": 114,
+      "appendixBodies": 38
+    },
+    "note": "Umbrella present-state inventory only; does not rewrite audit/quran-verification or audit/appendix-verification packages"
+  },
+  "relatedPermanentPackages": [
+    {
+      "path": "audit/quran-verification/",
+      "role": "Permanent Quran Suras 1–114 verification package"
+    },
+    {
+      "path": "audit/appendix-verification/",
+      "role": "Permanent Appendix bodies 1–38 verification package (includes evidence-class limits for A1–A4 TEMP artifacts)"
+    }
+  ]
+}
