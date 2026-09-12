@@ -1,698 +1,711 @@
 {
-  "generatedAt": "2026-08-29T00:17:58.288Z",
+  "generatedAt": "2026-09-12T21:46:34.976Z",
   "repository": {
-    "headSha": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
-    "branch": "main"
+    "headSha": "2c95021501972889972706d58fc30e2a78b89ef8",
+    "branch": "main",
+    "note": "Present-state hashes after Cumulative GOD Statistics Package B (uncommitted at record time). Parent HEAD is Package A checkpoint."
+  },
+  "packageB": {
+    "status": "PASS",
+    "type": "POST-SEAL CANONICAL-FIDELITY CORRECTION",
+    "description": "Restored omitted canonical PDF page-level cumulative GOD statistics for pages 25–395.",
+    "pdfPages": "24–395 (372 statistics-bearing Quran pages)",
+    "existingP24Preserved": true,
+    "newMarkers": 371,
+    "totalMarkers": 372,
+    "suraFilesModified": 93,
+    "sura001Unchanged": true,
+    "representation": "page-level end-of-PDF-page markers (not Sura-level totals)"
   },
   "fileCount": 114,
   "files": [
     {
       "sura": 1,
       "filename": "sura-001.html",
-      "sha256": "0ef6119cb377762759c2b72ec13c76cbe655b6df72e1bcbec565b363fe09a8eb",
-      "bytes": 4286
+      "sha256": "cfea2453dfa267c2dd6c5599e50a96cc434d2b976b287c5631f885406b5618cc",
+      "bytes": 4324
     },
     {
       "sura": 2,
       "filename": "sura-002.html",
-      "sha256": "83b4200dca821f724fbcef80a988eed22a5030aa494e5726e1e0e5dabb8162e6",
-      "bytes": 92789
+      "sha256": "25ccd854ae0d27afb833b8350bb97f4d44fa226858f896145514dfc89a6d7bd9",
+      "bytes": 94385
     },
     {
       "sura": 3,
       "filename": "sura-003.html",
-      "sha256": "5c15b23538e81bf6e7fab43679b2398acf8d9aebcb46bee28e0dd327db52c7f0",
-      "bytes": 50028
+      "sha256": "887439c4496dd2428c38488cea29d2839cd7027bcd34557c0aacc968f667ed01",
+      "bytes": 50978
     },
     {
       "sura": 4,
       "filename": "sura-004.html",
-      "sha256": "d9e9214c8eb505a1e315fbcfb4819077830275c4d093a66587c4051c479fe1fb",
-      "bytes": 53126
+      "sha256": "6dffe326aca974bb0bb9c21c8ac14435912465ecfedce4012fdaaebc6c43fe08",
+      "bytes": 54076
     },
     {
       "sura": 5,
       "filename": "sura-005.html",
-      "sha256": "b66aac2e8236fc21004c4380f0dfaf77a6ece1898d6630541ea67b6c321c80be",
-      "bytes": 40937
+      "sha256": "e55fa044987118257c4cd2eca88b34c7c172257c2d8d61de250e3104d7538952",
+      "bytes": 41716
     },
     {
       "sura": 6,
       "filename": "sura-006.html",
-      "sha256": "40bdea55421212b65d1feea5a36e56b3e9d8d8ffb3e4b242b2380a0e461adc4a",
-      "bytes": 44891
+      "sha256": "6619187245c5b0f83180c4afcaaaf0f8598e0ae57f9c990191b167cfccb821d8",
+      "bytes": 45727
     },
     {
       "sura": 7,
       "filename": "sura-007.html",
-      "sha256": "0a79c99ec79c73b92283e2eca2a641a39d6baf66006bbf0d3811653df5e9a8b7",
-      "bytes": 46730
+      "sha256": "27ee607e625159e3cb199063432b2857fbcf57f72913ec108eecd800372510ae",
+      "bytes": 47630
     },
     {
       "sura": 8,
       "filename": "sura-008.html",
-      "sha256": "87c2a85f9235764ad3697c77a448efb061376c8a2b728275909d596654cf5730",
-      "bytes": 19525
+      "sha256": "7aab6931abb7c0bde35ef823f2c6b0d6b96e34ac257e2e99b95671eae648cd37",
+      "bytes": 19853
     },
     {
       "sura": 9,
       "filename": "sura-009.html",
-      "sha256": "499436d058b1a29560fbc44ae0507b86d4ae11d42639a3be772977c3288d3236",
-      "bytes": 38962
+      "sha256": "ea19d781773700d182d0e786867928ab623d6cfe71518afa608e880791bbe146",
+      "bytes": 39696
     },
     {
       "sura": 10,
       "filename": "sura-010.html",
-      "sha256": "3c0a48e56975e2a609e1069f04fb74904f9b5748c142520d2479759ce9dbfd0c",
-      "bytes": 26570
+      "sha256": "6a5d90e8f3cabe1faa7f9ed3df955f402ca9c43bc94e6681369f372ff22c2106",
+      "bytes": 27072
     },
     {
       "sura": 11,
       "filename": "sura-011.html",
-      "sha256": "00edd12887f7a718500720c211af1c4b14d763a0c6ef5417f0b8b1739545b0d3",
-      "bytes": 28239
+      "sha256": "08803f5d3512654d2f0b0513168497d121eb1cf5b927e7db0adab8c17a9df126",
+      "bytes": 28799
     },
     {
       "sura": 12,
       "filename": "sura-012.html",
-      "sha256": "d15d0927515e99311656c9ccb2a4d62e5f5fdb2f5719dec8ba184197990aafd0",
-      "bytes": 25180
+      "sha256": "008965a72fda12c4460bcf6afff3f1b50ca2b3b3ee5ad3328e83911906112a36",
+      "bytes": 25624
     },
     {
       "sura": 13,
       "filename": "sura-013.html",
-      "sha256": "822304bd43ef16ac2900580bcccee1c7adc6a39c238f1aa1fd93a5814f4de8ff",
-      "bytes": 13559
+      "sha256": "78d602b4e2bfe010be2de13de46d5143402cabad2a0d3cf75370eb1170d8a1f2",
+      "bytes": 13829
     },
     {
       "sura": 14,
       "filename": "sura-014.html",
-      "sha256": "79b50e2aeae0c883c097de1bfa77143556cf4672ca198996500dca8b90d35c6d",
-      "bytes": 14042
+      "sha256": "4b1cf7db6d4e24dcea839601c482c8b17eb1b38daa413578672347735125662e",
+      "bytes": 14312
     },
     {
       "sura": 15,
       "filename": "sura-015.html",
-      "sha256": "5a5a02148567ee60bc8a8483b6e8b8334763c04acdfea4b39a7fedff6f50ab06",
-      "bytes": 12368
+      "sha256": "eb957521c109da303b3614b4fef1a1ab0294eed8fd89bbf61166c4a14bf6ecec",
+      "bytes": 12580
     },
     {
       "sura": 16,
       "filename": "sura-016.html",
-      "sha256": "d5cc4f53d2c136c0230dd9b3746539e0731fe8105d77b5218d1ca32f2e2b60fd",
-      "bytes": 28486
+      "sha256": "c89491d96bc05e7421781add5e58966af4dccf60000ea4403ee43eeb2124c8f7",
+      "bytes": 29046
     },
     {
       "sura": 17,
       "filename": "sura-017.html",
-      "sha256": "fa6d944f2d5783a06411d2b81a7446c544aafce7e11ebf842a2de6a9f1aa5b06",
-      "bytes": 24393
+      "sha256": "7b1025c997569536f64e55970ef29835569886f46b991923fb67f0a967135e3f",
+      "bytes": 24837
     },
     {
       "sura": 18,
       "filename": "sura-018.html",
-      "sha256": "f4209602186f404ef3b464501ad009ab1e0c675abd510a624b5eb5e965449a1f",
-      "bytes": 25156
+      "sha256": "d266d02ddd688b7ed3f6c210afa0ff61ac2f7723737ea2c5be93980b2894452c",
+      "bytes": 25658
     },
     {
       "sura": 19,
       "filename": "sura-019.html",
-      "sha256": "1b6916e49f22ec185bd6273896332692189ec60ba1f69a94995017ff6ec0ba4f",
-      "bytes": 15872
+      "sha256": "f88c39e7c477a7f7c7f3e46cdff3fa1e157b34a9c7ab365f42098dddc7fcd981",
+      "bytes": 16142
     },
     {
       "sura": 20,
       "filename": "sura-020.html",
-      "sha256": "2cfd0f22bc6f17499ca5a5061e9981b5c5f5cf886a84f4f4892c53b89b95b8d5",
-      "bytes": 21165
+      "sha256": "57ae904e3040d57597ac3a1d1f612ffa3d37c0c507b61d57ee6f7194d027eb7f",
+      "bytes": 21609
     },
     {
       "sura": 21,
       "filename": "sura-021.html",
-      "sha256": "31c83b91feafeb6559182abc84f61d7bb756194f7668d03ec8b94502f1c53834",
-      "bytes": 20781
+      "sha256": "5ca16ba070845e5e83734be1cdfa3cededc946ad997976f0efb93ae943ad8f21",
+      "bytes": 21167
     },
     {
       "sura": 22,
       "filename": "sura-022.html",
-      "sha256": "f7cedebda0a4a037d42bc8f5f6c66f8640d4bba56ab1377c51fd7d1842449a26",
-      "bytes": 20212
+      "sha256": "96953cdd4a0d63d22781d5cf0dc6aa4b7468bfd5ca7c493ceb7b14259f4b2821",
+      "bytes": 20598
     },
     {
       "sura": 23,
       "filename": "sura-023.html",
-      "sha256": "edd74121c6804bf192cf02dc9c5a8fe43f8059b5e91e1479d8bee5ac3424d93d",
-      "bytes": 17204
+      "sha256": "8687152374fcdd02309b3343830332f64cf5c1b552a2cd3b5702eb4078bb7e0f",
+      "bytes": 17532
     },
     {
       "sura": 24,
       "filename": "sura-024.html",
-      "sha256": "c002e4036c8b46eda889b2395bf2b82a732ccd8d2da1a7ab610a868e49e5eea8",
-      "bytes": 18684
+      "sha256": "96a9caec725ea646abe4346c0a3636080cf688b4bef5d1b7b0856b773ddd6fe8",
+      "bytes": 19070
     },
     {
       "sura": 25,
       "filename": "sura-025.html",
-      "sha256": "e123246af9edeec0b21c6c3b11af5b0d4532ba17d89f334771de29d9493d1867",
-      "bytes": 16069
+      "sha256": "51318205ff501aa573a6c3ea8d9a8b32962abb89e6a92096ed87c66729ae6379",
+      "bytes": 16339
     },
     {
       "sura": 26,
       "filename": "sura-026.html",
-      "sha256": "76891186cb2968e8788e3e6fcd24bfb91bfc8d5f0a972d7b199d4c3ad9b87f3b",
-      "bytes": 23083
+      "sha256": "40da13941a5ef9677fbc90f9f114b9b3d88a76fe8c83bd671ff2972b9f64c185",
+      "bytes": 23529
     },
     {
       "sura": 27,
       "filename": "sura-027.html",
-      "sha256": "f333c78363d28d91152bc1473034ec532ef259d0d262cdb0fd25a8d84bb92a5c",
-      "bytes": 18028
+      "sha256": "1719eca62ba077e978e9af7d06b795837a0423aad03ab6a13d2d0d7782d33c3d",
+      "bytes": 18361
     },
     {
       "sura": 28,
       "filename": "sura-028.html",
-      "sha256": "6219b3755f45260cf2cb5fee708cc907739727d32ec129ed8c4cd84032decd32",
-      "bytes": 20894
+      "sha256": "06e46031124ce7560078bc7fca146881130f9d1b3b83d799dacbab91ee216b88",
+      "bytes": 21345
     },
     {
       "sura": 29,
       "filename": "sura-029.html",
-      "sha256": "b9995ce6b08d1517cbfc54e911a34f3884c06fb486a9453bf85c9ca81c1e8015",
-      "bytes": 16878
+      "sha256": "bc00bf8c57786aadade199f91e998b3366574a58571af1ba88da41b28bde6569",
+      "bytes": 17152
     },
     {
       "sura": 30,
       "filename": "sura-030.html",
-      "sha256": "9b4a11dd511ed107002d918e5bc9746e41226067554c2d7d300b53f8b9b19867",
-      "bytes": 13323
+      "sha256": "d649cb6a0d1e05f1b519594e919550b1f6f81ffad6c79a9642a8d999c97f7a81",
+      "bytes": 13597
     },
     {
       "sura": 31,
       "filename": "sura-031.html",
-      "sha256": "985aed7f179a0945fb07d9eca42c9d805e6376554a5a31488408f3a74f044982",
-      "bytes": 8997
+      "sha256": "ade9a7f66923b3b2af76fb493e387893639c619c762296429420da298ec6d188",
+      "bytes": 9212
     },
     {
       "sura": 32,
       "filename": "sura-032.html",
-      "sha256": "a785a7e2b143583bd9cf1cbf43590bf3f3d68acea78ec40ef76bf57ca36e5c87",
-      "bytes": 7247
+      "sha256": "86785b06b098d4dccc10a459a8cb6c0a6c59644162bce6ddb1439fec031c0f79",
+      "bytes": 7344
     },
     {
       "sura": 33,
       "filename": "sura-033.html",
-      "sha256": "d255dad0be0e6b75680a65e794602b000ff671f434ffa70618390cba4a15bc74",
-      "bytes": 21186
+      "sha256": "02e2f296e4565e5c9dd2ed45646b0a66a82c692d5e3810341918b010d79cd5a5",
+      "bytes": 21637
     },
     {
       "sura": 34,
       "filename": "sura-034.html",
-      "sha256": "e5f193f42cfc81b9e424a9b079f5f0e4fb5162b141583448253cc351a1b401e2",
-      "bytes": 14680
+      "sha256": "7befeaa22d37d8d2305bb8507cb4b883accab50493a7e3d1a22241707aafb7bc",
+      "bytes": 14954
     },
     {
       "sura": 35,
       "filename": "sura-035.html",
-      "sha256": "fb05d02cbb8eaf1ecb814d137f040a335ed46b6260e6bfca3ffee04da4c53dde",
-      "bytes": 12109
+      "sha256": "222f5adb202ff10c772842aaa236e0d5a2e469cb56cace937a57423d2c8bdea5",
+      "bytes": 12324
     },
     {
       "sura": 36,
       "filename": "sura-036.html",
-      "sha256": "c51c9d573e53a3358b7ba17142eb01453f9881998ce0c15e5b8ac1f9a6c0a3aa",
-      "bytes": 13326
+      "sha256": "d74b66ae2269fca2074f8e17eb3f82a5fb319ebb84d4367e5dfa4209f4ff230b",
+      "bytes": 13600
     },
     {
       "sura": 37,
       "filename": "sura-037.html",
-      "sha256": "6ff42997921bff887623e47674400fb3292513acd363d9729ea14053f830fb1e",
-      "bytes": 17891
+      "sha256": "9f4335cbb0f9a4c99b7dce81f6b85a5eaf92cbb4a37c9d923cd8fe632687e053",
+      "bytes": 18224
     },
     {
       "sura": 38,
       "filename": "sura-038.html",
-      "sha256": "6534b35ddc2d1c8841b72ab8b87f849af79494c31b3e52588638c08b3a10f9e0",
-      "bytes": 13920
+      "sha256": "d3163271750f7d3d04da54c6f2bf8000408f134fe1020bdb7cb2f52a7f1c2481",
+      "bytes": 14194
     },
     {
       "sura": 39,
       "filename": "sura-039.html",
-      "sha256": "733fc161ef938a72ce4bb6a5be438131fc5db4f598c5d8334ee94b794bc7b54d",
-      "bytes": 18398
+      "sha256": "7fefbd25ca19d02ce32914bce313849bb0f581397a766ba22a69691a22c6449e",
+      "bytes": 18790
     },
     {
       "sura": 40,
       "filename": "sura-040.html",
-      "sha256": "52e19f542c5296273432ef4e72e4cee0baf2ed7d06fd94d3f5b21e77a3466836",
-      "bytes": 20436
+      "sha256": "d66e3203eb12bc3a851291ce986f0f7855c045f8ebf579288cb8bc1f16073ae5",
+      "bytes": 20828
     },
     {
       "sura": 41,
       "filename": "sura-041.html",
-      "sha256": "1048d08cca9d83bb47764e72acdb4c9248086d8a65ca664f14d296b40cfb188e",
-      "bytes": 13672
+      "sha256": "d62fe0c47a534e5d9e29aab5c915227876045eac9902ec91ced03f5559fb891f",
+      "bytes": 13946
     },
     {
       "sura": 42,
       "filename": "sura-042.html",
-      "sha256": "c14e5a53daec47c248354d6789539b01bbaefd20cb99b4df72cc40845c48a892",
-      "bytes": 13721
+      "sha256": "9d62bd018cb36877a1ea47c12660cbb87c492d60fb1a2eea6435733f9812ba57",
+      "bytes": 13936
     },
     {
       "sura": 43,
       "filename": "sura-043.html",
-      "sha256": "0c38c1db4e206cc29c357e3bd143efdb2ec053c0817cca57f54dabad1e14d739",
-      "bytes": 15632
+      "sha256": "cf0355034991f9fe59cdabd41c04a9fcb8f62d81fbd71b4285af5bc73f96c5b8",
+      "bytes": 15965
     },
     {
       "sura": 44,
       "filename": "sura-044.html",
-      "sha256": "badca9fa89209425be9cf3a3ec569eb1831596c59c40612cd9f352c4e2a8fb61",
-      "bytes": 7535
+      "sha256": "763352ae3b41d529166b9ad9e06997ed832dd95485e7d1a2a090de7a1ceeb3dc",
+      "bytes": 7691
     },
     {
       "sura": 45,
       "filename": "sura-045.html",
-      "sha256": "6f5e2cdc3666984049215438b5e88aa009ab405772dfd23e7cabaf5d8e36da6b",
-      "bytes": 8273
+      "sha256": "6bc8bf5c6f16633b038f07f968bf3af30c90baba0f3fb3cf4ca8fc15db8773ee",
+      "bytes": 8429
     },
     {
       "sura": 46,
       "filename": "sura-046.html",
-      "sha256": "12b6ac3d53221bd3ebe44508cb53686b9f2ec250a0b7aecb272c89ccbe78d4b3",
-      "bytes": 10935
+      "sha256": "f58bac68afae1c396af67796d25b13de722e3bcf8b03c0c10d86abaf5ca6bb5d",
+      "bytes": 11150
     },
     {
       "sura": 47,
       "filename": "sura-047.html",
-      "sha256": "e6067e4bf62098279b230f0c4b41081a33d67f59466717d745f79dbe50ecb7ff",
-      "bytes": 9289
+      "sha256": "1059f6f6b6eda7166048b193dc6423cc27063932099674a109849012bfb528cb",
+      "bytes": 9504
     },
     {
       "sura": 48,
       "filename": "sura-048.html",
-      "sha256": "e41f900d580ecb857bd7ae5a07c756b03d891055351c7de6a8971afca4600cda",
-      "bytes": 9461
+      "sha256": "1b3e87d9e7bb9276321ea65fd249d54bced26ff4b027b4e674ea4208df3b6c0c",
+      "bytes": 9617
     },
     {
       "sura": 49,
       "filename": "sura-049.html",
-      "sha256": "a3e220db2988f98227772c8131c9871592f762d80ee6932dd6b4f891aadc518c",
-      "bytes": 6450
+      "sha256": "7fa2f48e61927814dda93008598c9a8cab44c162918e0a3f39649738991d1570",
+      "bytes": 6606
     },
     {
       "sura": 50,
       "filename": "sura-050.html",
-      "sha256": "75b68faf36bba6493fbb953bd55d00d3011edc89579fa63dc1e69798a8e26037",
-      "bytes": 6472
+      "sha256": "a99de98c70372673a06be63ff480c502e0fb7d20133cdda5c77b6bae00d0a382",
+      "bytes": 6628
     },
     {
       "sura": 51,
       "filename": "sura-051.html",
-      "sha256": "5a5db653bae757f20f0d8e8541183a5451a98226a933684fe748c42ef8fedbf0",
-      "bytes": 6890
+      "sha256": "9515f8de65aadd06bfa4c756ef9eb5d49b0480b4e3261b2f9dbc4c24893aef63",
+      "bytes": 6987
     },
     {
       "sura": 52,
       "filename": "sura-052.html",
-      "sha256": "e204ba4256a5633429cd288851b8df7f2a9efdcf86a3aa51bc9db869b7a210b3",
-      "bytes": 6105
+      "sha256": "2d2936a371fb5cc5abf48beb806618fe0e309a729155e8459e7b1054d9fbff52",
+      "bytes": 6261
     },
     {
       "sura": 53,
       "filename": "sura-053.html",
-      "sha256": "9c884d0355a2243d1046e07d9bb0b37371cf57c5fd60ae344c3189674a732861",
-      "bytes": 7194
+      "sha256": "167d7d0a183572647517ca92026fb325484803341fda8bfe0a53aa62dae5c820",
+      "bytes": 7350
     },
     {
       "sura": 54,
       "filename": "sura-054.html",
-      "sha256": "3f667d26ec8ee283d4e828a60ae290b33cdc383410d0f8b269c490218aa44cc5",
-      "bytes": 7151
+      "sha256": "eba8c61e1b45dc2e1008717d630eab11ea332ab66e9426e61614a6b629dea664",
+      "bytes": 7307
     },
     {
       "sura": 55,
       "filename": "sura-055.html",
-      "sha256": "abf26cf57337484c3a991045c5bbb9ba2678ea58b85169905dedabaff337b584",
-      "bytes": 7996
+      "sha256": "1f87f0aef64ccbde91d8b1998168608d0f634bbff950beeb1f551500ac68a50a",
+      "bytes": 8152
     },
     {
       "sura": 56,
       "filename": "sura-056.html",
-      "sha256": "31eea6826a8432dd871537f955e92e3b9ecf47f6b4ee4ab216a24ca7679dfbf9",
-      "bytes": 9340
+      "sha256": "293de7d39369ce9f6af8469343ab52ef1bcbdf034b5df83706771228b53d7b65",
+      "bytes": 9496
     },
     {
       "sura": 57,
       "filename": "sura-057.html",
-      "sha256": "09a7d404f3e461014999f6ad00eed34ff13266580e75e08e71505f7068df48cd",
-      "bytes": 9373
+      "sha256": "708811d59a626813187d49716a0bb1d87fcf75a353643ed4e89015abc8e8aacd",
+      "bytes": 9588
     },
     {
       "sura": 58,
       "filename": "sura-058.html",
-      "sha256": "41a7d6560091620b179938bedfad80fc5f8b99a0ddcf796caaea49613b45cdb3",
-      "bytes": 7380
+      "sha256": "4ce97567ce0bd3f0e1c3b80b4f63d1cc2a85b86d7b176be01a331f832f2c654c",
+      "bytes": 7536
     },
     {
       "sura": 59,
       "filename": "sura-059.html",
-      "sha256": "b4b0679f43a75f9065dff324ab4cfa1826680a6f0e89e22716ff47fedc9e199c",
-      "bytes": 7353
+      "sha256": "d1b62d63792973e686ce4f71d718b07f5a65dcb7ff7dc1f25617d2382eb19018",
+      "bytes": 7509
     },
     {
       "sura": 60,
       "filename": "sura-060.html",
-      "sha256": "8771fd3280e6a11395140160284fd291d58ba784bfb096c81142fb1d4222cfde",
-      "bytes": 6201
+      "sha256": "fdb496cc82cf824cc82c251d915e1eb13e54d03ee9242dc40babdbc624c3439e",
+      "bytes": 6298
     },
     {
       "sura": 61,
       "filename": "sura-061.html",
-      "sha256": "f1e3ceb65dd808bf7713ee0552e2bef537760f80d790091fd9d6e310cc9246aa",
-      "bytes": 4236
+      "sha256": "a477491549e8534eb7eb36a79a90b62b0d0e0f3b12601a9be02ff872b39f1a6f",
+      "bytes": 4333
     },
     {
       "sura": 62,
       "filename": "sura-062.html",
-      "sha256": "4ca8a9205e69cbb0376d3c11f92acffe03350f49c6d56eea25e9348f57207aab",
-      "bytes": 3651
+      "sha256": "fa4ec9cc8271583423025dd909c5d5dcf98232c1c228a2d50df690302b8274a1",
+      "bytes": 3748
     },
     {
       "sura": 63,
       "filename": "sura-063.html",
-      "sha256": "b6ddab594c9cd0159a0bbed456e53e6c3e0c0e7f8c53b2f6d27ae63067ff896c",
-      "bytes": 4373
+      "sha256": "ada92f1f18f7c5858399184e72b80f2681899e7081eddde32b40ab1c5bf700aa",
+      "bytes": 4470
     },
     {
       "sura": 64,
       "filename": "sura-064.html",
-      "sha256": "e57d5379ac4cf1bb8c4a0536a65cc6ad731713396d8c5b45d1ca5aacab42859a",
-      "bytes": 4933
+      "sha256": "2bfaa1e09dadb2fbeba8d31fed0ebc4904a37d6b3d7853936824f4c855261b6f",
+      "bytes": 5089
     },
     {
       "sura": 65,
       "filename": "sura-065.html",
-      "sha256": "3e2266447a92ace8631580f0cc12ac297aae60538f6c7b51acca7f8bb4890931",
-      "bytes": 5602
+      "sha256": "1bb97acc50f3a70f40ca1917d2903ad09b9dd73bb09f15d7bc6eb17feb60efce",
+      "bytes": 5699
     },
     {
       "sura": 66,
       "filename": "sura-066.html",
-      "sha256": "35dceeaa8907ccb47d50f530a5d4e09db7e0322298f09a9a3da76461cb6ef2dd",
-      "bytes": 4777
+      "sha256": "e98f41fb3f30e2f6bee78ad4506c3664a07d2dc0c4cbb32f61431f5e196eda0c",
+      "bytes": 4874
     },
     {
       "sura": 67,
       "filename": "sura-067.html",
-      "sha256": "a501e1ab85606ba5060acd40dccfa3bde77f2915ce94286b85d206e14ed5aff9",
-      "bytes": 5803
+      "sha256": "f1ab55538221aba9bca63d0ebe569f4a4090e40fc0758de86055a5cf5646b4d7",
+      "bytes": 5900
     },
     {
       "sura": 68,
       "filename": "sura-068.html",
-      "sha256": "1c50c85f45b8a1442b9b65a72235fc1408bc21881d6fdb5c3aa8749feea9e91a",
-      "bytes": 6194
+      "sha256": "868b99357c6af512d923d11f0cbe57206b1d5d22fbb100fa273b57b01a25b379",
+      "bytes": 6350
     },
     {
       "sura": 69,
       "filename": "sura-069.html",
-      "sha256": "00c65f1c291dddbbbd786c433089d496a5534d6f624ec983d6ded281f41bdeaa",
-      "bytes": 5995
+      "sha256": "b6e71415fdadb1fcff8164d982fc3d3dfbe4c03d01aabc0ce07aeaea113ef53f",
+      "bytes": 6092
     },
     {
       "sura": 70,
       "filename": "sura-070.html",
-      "sha256": "1d2740e144581741d988ba1ff5d0b54a0bcce3221fd3c7f9c9e0513b51c02bd5",
-      "bytes": 4900
+      "sha256": "f2421123dba6b6335fa3ed1aac0467fba94da9710dc9dd51cd3738bb4c1897a0",
+      "bytes": 5056
     },
     {
       "sura": 71,
       "filename": "sura-071.html",
-      "sha256": "34c6a01943fb41d4a61cde7b053be91a4b5d09a08389058bc9d6dfd2457baf39",
-      "bytes": 4459
+      "sha256": "65c4b8721a41984dc1b538bb549ca4765a03193c53465fa26fc847febd711693",
+      "bytes": 4556
     },
     {
       "sura": 72,
       "filename": "sura-072.html",
-      "sha256": "17e7658afef8fffd3cddf8cf4cca8485ae00a099ece27039baadca4c9f1cdb9c",
-      "bytes": 5818
+      "sha256": "3eb16a23ce26c3fec8dd01beb6235e44a1a13acd319e9e7339f8a32417942e4b",
+      "bytes": 5915
     },
     {
       "sura": 73,
       "filename": "sura-073.html",
-      "sha256": "2b78f9d9fb641c4468d725d9412b44e18d3cecab7e73780628d7e5b76c1a1bba",
-      "bytes": 4107
+      "sha256": "bb4ad2bdb9cd24b470cbd9e1be8e3d6c50c586e30673a3c560585592993034b8",
+      "bytes": 4204
     },
     {
       "sura": 74,
       "filename": "sura-074.html",
-      "sha256": "6bb5d024d6d822a5af8aca7cc67be3c6d53c2d50926721c2f220b35c9153269c",
-      "bytes": 6530
+      "sha256": "f5e249e75e7b74035ba1f11dec0290529fb044f41145c9aaa99fcb03be974c49",
+      "bytes": 6627
     },
     {
       "sura": 75,
       "filename": "sura-075.html",
-      "sha256": "e92ad51028c1ddf5e6c12edca4a543edbfa7413270dfdd8f3aae2fad06d0125e",
-      "bytes": 4417
+      "sha256": "1e1c4fc6022105451e4af46b3caeb4046d12e45780383cae984e79dfd77ae5ca",
+      "bytes": 4514
     },
     {
       "sura": 76,
       "filename": "sura-076.html",
-      "sha256": "276f5e6801a5edf6a244f4f8e903a248ea2fe15802469d6fd70b341106ecb43f",
-      "bytes": 4896
+      "sha256": "32dee42206a7e7c358ff12e367e24a9303ab8bf91e79c5bbc8577ffaf2ed6705",
+      "bytes": 5052
     },
     {
       "sura": 77,
       "filename": "sura-077.html",
-      "sha256": "8856b801bc9eec860254b08f009c023e321f4a36118f9ee89386d78ee83b1321",
-      "bytes": 5076
+      "sha256": "f9e6bc08aafebea162eb0de940c5fe4e9b77a60afa512379439272207536141f",
+      "bytes": 5173
     },
     {
       "sura": 78,
       "filename": "sura-078.html",
-      "sha256": "f596b41ea64bc4fd96bc6f65ff1f8489db0029275bfb7f8d7eb0308bd778ca49",
-      "bytes": 4450
+      "sha256": "a7c51096133a8657e17cd95670e952b0702dfb828bb44762094b25ee717f1491",
+      "bytes": 4547
     },
     {
       "sura": 79,
       "filename": "sura-079.html",
-      "sha256": "6d58383bfd7a70264419d6a23c9b623267f607cee9a76a3b7ded8a9afc7e630b",
-      "bytes": 5015
+      "sha256": "d32acce53d26f86c40491787989e3bf4ff42893854bd617503e20d639b28af4d",
+      "bytes": 5112
     },
     {
       "sura": 80,
       "filename": "sura-080.html",
-      "sha256": "3af934aee0e36930bbbb39fa1bb5ea7e8369455e92b7ca71493516e57196e74f",
-      "bytes": 4102
+      "sha256": "2e18c7f772c5217838322ac6a8eedcf3db78804eee028fc1df8e223f248e88b6",
+      "bytes": 4199
     },
     {
       "sura": 81,
       "filename": "sura-081.html",
-      "sha256": "c1dd862f19812c80730245ed7453b69f13b15b130b0ebff99e38d063473f3a92",
-      "bytes": 3799
+      "sha256": "ab4fa2bd886eb4823f90a8752a2494182f33b9a756dd852118cad24e33c91b1c",
+      "bytes": 3896
     },
     {
       "sura": 82,
       "filename": "sura-082.html",
-      "sha256": "1183c320c68936487295a7bf84f289e401c39e1fb77d935cd947796a52e747bb",
-      "bytes": 2933
+      "sha256": "e77611e371c690c1b259cf1a29c0b95462d1190265d59b64abed4dc5c3bf5c83",
+      "bytes": 2971
     },
     {
       "sura": 83,
       "filename": "sura-083.html",
-      "sha256": "1f8963a7bfc27a397ab3ec772f25f2b23a61db369d7b37aec41172393dbba402",
-      "bytes": 4330
+      "sha256": "d1d6ca99caa967a45513d66b94d60e881e24dc62d6a0fd02f5eabac35a737c04",
+      "bytes": 4427
     },
     {
       "sura": 84,
       "filename": "sura-084.html",
-      "sha256": "6b1d53222fd2ea6adfae72cc23976a5642405cb9b8a88f4b5436860ce7d1a737",
-      "bytes": 3304
+      "sha256": "225b7b7219e1641a2f0ec8ce4b865e5c2c4f52e1084bd8c0f5fc6abca8582fb5",
+      "bytes": 3401
     },
     {
       "sura": 85,
       "filename": "sura-085.html",
-      "sha256": "84f86ba0c3861b33dcf4864f8fab70dacd5344cf77d951ba55df56f9eef38d91",
-      "bytes": 3160
+      "sha256": "bb34c27a1b7f54ae92199f4dde558920a82a783d0ccf163ccfcc9466daa309ad",
+      "bytes": 3198
     },
     {
       "sura": 86,
       "filename": "sura-086.html",
-      "sha256": "60dc31b00e5b0bf7235d69fd590dd4a3d5f38f068cbe9a9b70281e7f07953e6a",
-      "bytes": 2535
+      "sha256": "6abf38b5ab5d7d72c227b86ad2e628341bcb5a065b9126bcc847afbe7f367997",
+      "bytes": 2632
     },
     {
       "sura": 87,
       "filename": "sura-087.html",
-      "sha256": "2a32bf2b30c23dd3d93af7f64e2207e5ea4bd451f34a50c24ed1ef198e73ed6a",
-      "bytes": 2882
+      "sha256": "564db1065c6d1a76bea7e86192bb6715075afae99ac49d4990005a1c46ce96ad",
+      "bytes": 2920
     },
     {
       "sura": 88,
       "filename": "sura-088.html",
-      "sha256": "94c75a746f2b93ff9e3e771106cc19acc7e2115964d5927b723632662e0b617a",
-      "bytes": 3173
+      "sha256": "aa729aa2b481c192dfbd0d838963080a1891a2b24c95f77efa98ff91bf022e00",
+      "bytes": 3270
     },
     {
       "sura": 89,
       "filename": "sura-089.html",
-      "sha256": "0604830d3d2739ff6937d11c39fd536022ebfa57587c526d5a51c8678acef456",
-      "bytes": 4030
+      "sha256": "6c592232feb92e4011232d1d90365ffa9dd1bd436417a5f66a28bcae7a269f35",
+      "bytes": 4127
     },
     {
       "sura": 90,
       "filename": "sura-090.html",
-      "sha256": "19a45d0dbfdc71b20981e8520197a9f0c1292c5004b7cccf45e4ac8bedb60650",
-      "bytes": 2972
+      "sha256": "6ed91b121b2b29de6c017189b8f379f64ef778f90f54c0eb90fcb01b8411121d",
+      "bytes": 3010
     },
     {
       "sura": 91,
       "filename": "sura-091.html",
-      "sha256": "dc0f09bea49b701bc638ed47d29b673b461073ee0b6c427ca58e4d61c1f06bc3",
-      "bytes": 2519
+      "sha256": "4c68e1ed3657c5c386fdec838f556654c8c025a8f379fa447f5a4ab57c59335c",
+      "bytes": 2616
     },
     {
       "sura": 92,
       "filename": "sura-092.html",
-      "sha256": "468428af5e9b15e8ebc99fca2b7b8f0164479eac5b1be76f9ca2f843e485a6e2",
-      "bytes": 2839
+      "sha256": "987aa0120f6f5e1119849502624de0f6c199c6cc10c3fd3e68c2b039d0f137c1",
+      "bytes": 2877
     },
     {
       "sura": 93,
       "filename": "sura-093.html",
-      "sha256": "82db4466eabed72062ce79b645b34b6fff4657d76e69cb17bbdbac5a8b2943d8",
-      "bytes": 2285
+      "sha256": "d0b4ca7499226a4e020a2ba3fe919a9502872b9a9e2f2d605601c3db1447aeb8",
+      "bytes": 2382
     },
     {
       "sura": 94,
       "filename": "sura-094.html",
-      "sha256": "4548b7afb39ddf49420e7bacca6024274361f74f0891177ca1d6bf42b5b54861",
-      "bytes": 1976
+      "sha256": "42eda7e386aa432cb556ac11087669b9b25b3b0777be95290d070a4d55ab484d",
+      "bytes": 2014
     },
     {
       "sura": 95,
       "filename": "sura-095.html",
-      "sha256": "2c9bd82cd4c3b304ddf8e8723d5e0caec50ba8f3acd1a0fda1b3608737e4d294",
-      "bytes": 2220
+      "sha256": "126835d883527143e5800071c1b9d320210cad8b5a0103136ad0a795179187ce",
+      "bytes": 2258
     },
     {
       "sura": 96,
       "filename": "sura-096.html",
-      "sha256": "1cade9f423eeeb4048661db9bd42a9b45fc12a730dbe6382669cc733b8cbe5cc",
-      "bytes": 2951
+      "sha256": "693f9abbd6b3b6edf02704be126fba94536d507a4a008f984b699b5a97b1309f",
+      "bytes": 3048
     },
     {
       "sura": 97,
       "filename": "sura-097.html",
-      "sha256": "acc0f05e0a147e77513eaaa77c65bbe51b852d42c472f8f5e403e941bb3bdec0",
-      "bytes": 2065
+      "sha256": "a38794f1a07733d802849ff9450115b3bf0013ca7bf88be890b03c50aac37b29",
+      "bytes": 2103
     },
     {
       "sura": 98,
       "filename": "sura-098.html",
-      "sha256": "b0288a2a47b0357adca3f5431a8a4dedc50a4f67e76637443482aa2a960cf9fe",
-      "bytes": 2920
+      "sha256": "b18ae0774c06524b11e4bda2d28cc91d9593d207abb5c74ec1f3dc4b61c86e1a",
+      "bytes": 3017
     },
     {
       "sura": 99,
       "filename": "sura-099.html",
-      "sha256": "9b714b2a5ff82527b57c374ad6687e766d0bfdb5a07796008f2e0dd1e9180234",
-      "bytes": 2086
+      "sha256": "8253f51d5cebe6675043ab0dd5268175237f9f51e12886d793709bd4ca7f522c",
+      "bytes": 2124
     },
     {
       "sura": 100,
       "filename": "sura-100.html",
-      "sha256": "37bc88de5368bd84fa94eab92a5997df55560d455c3ea4982c3db9167800e8b6",
-      "bytes": 2262
+      "sha256": "ea526c6ce61429b6785ec50b21c0ac41e7e4ae7a91767e2a5bcf8f9a0782b571",
+      "bytes": 2300
     },
     {
       "sura": 101,
       "filename": "sura-101.html",
-      "sha256": "b01062a0c9b09f52225aa76081575d85861c8fa9b23e9d8e0cac2e4babb1cb1b",
-      "bytes": 2161
+      "sha256": "40d2530b4d6830298de8c0f703792837c83fdf222720b7b275db41e91ac20761",
+      "bytes": 2199
     },
     {
       "sura": 102,
       "filename": "sura-102.html",
-      "sha256": "1c573ae116386a2036b96b21292b662b30c4cbc3611965ad371e033d0095a17a",
-      "bytes": 2029
+      "sha256": "d953a2347b88dfdd1a758fc50f100bf036ac293fe1ed6ffc7f2135455899ecb4",
+      "bytes": 2126
     },
     {
       "sura": 103,
       "filename": "sura-103.html",
-      "sha256": "6370e58dcc9cc28148fae7af7a1c071fc293702130c3a6202229892ec42c454b",
-      "bytes": 1765
+      "sha256": "94f309931e3ca2e1045063f582e59778532aaa58864fe0541a1f63343b8cec13",
+      "bytes": 1803
     },
     {
       "sura": 104,
       "filename": "sura-104.html",
-      "sha256": "c1fbeca4f1d8363b33ca3bfbd689276140b16a411a2f00905cbf77f6d1910b4c",
-      "bytes": 1972
+      "sha256": "d1db03fc91c6bce8eeb41babf2a804580028f0b11ecdb6bf96ddc8c4a50497ec",
+      "bytes": 2010
     },
     {
       "sura": 105,
       "filename": "sura-105.html",
-      "sha256": "d54ff411059f6060f4713195c079ad27e94cf9feeaa46963e8e0d5dd3e50df6f",
-      "bytes": 1842
+      "sha256": "40fc092f7afb20772161e26cc2bca1208d8557129177df8d52a4734d5cf01d58",
+      "bytes": 1880
     },
     {
       "sura": 106,
       "filename": "sura-106.html",
-      "sha256": "bde6c08c272cf5ef4375d2b94a6651f9adb1411f424e1bd5e0eae9801cb08bbc",
-      "bytes": 1834
+      "sha256": "637c8c15eeedd625fa9eb045273f6f9afbc14146b086a75cfa7f73dc9f0f3556",
+      "bytes": 1872
     },
     {
       "sura": 107,
       "filename": "sura-107.html",
-      "sha256": "f8b03892e11d48aa970798c11c290c925c41e962c06afdadeedcc4271d823589",
-      "bytes": 1951
+      "sha256": "2af655784a25817b2bb8be4b03173795c5a3c9d83b93e43aad6be15e6a3beaa2",
+      "bytes": 2048
     },
     {
       "sura": 108,
       "filename": "sura-108.html",
-      "sha256": "f89a12440efdacde54871fedf35b01020ddae0993b344cc858105638cd732bed",
-      "bytes": 1706
+      "sha256": "834253c1edd7145f95ae724d77324d76d2baa315fa4b0d5e009bdf0f6d219494",
+      "bytes": 1744
     },
     {
       "sura": 109,
       "filename": "sura-109.html",
-      "sha256": "dc0076f81851773cad55c4105507fd18a3dce37d19bd5a16c2fa3a522162aa0b",
-      "bytes": 1920
+      "sha256": "2426271c371f4da6c134a2a9de276947bf5a45363a91c029a8d5ecde69c8bfdd",
+      "bytes": 1958
     },
     {
       "sura": 110,
       "filename": "sura-110.html",
-      "sha256": "943d83f39eb3f6dd9028bdeaec7f08d044d2ec8b171d5ac4296bf27d0999b2ca",
-      "bytes": 2111
+      "sha256": "142e2fea56beb344238182228ac47ebe0c2da9c2dfb6032b872f84591d673087",
+      "bytes": 2149
     },
     {
       "sura": 111,
       "filename": "sura-111.html",
-      "sha256": "d8f386b4f0f75b5afbc92c90d56198b30251aecd5390b05d31ffc0053cec594a",
-      "bytes": 2147
+      "sha256": "fb6c7eff8ba1b20b859bf60104fe02637d5e537fafab7be68043dbbf07b89cdf",
+      "bytes": 2244
     },
     {
       "sura": 112,
       "filename": "sura-112.html",
-      "sha256": "096a562f5b1799a71db05b09a16fd1070de8cf34a69025e4c39f030de36f9d95",
-      "bytes": 1727
+      "sha256": "ced8e8b899bac293385f264b33c56331ac2b0a31db12a2fa7d7fa5efdf47999a",
+      "bytes": 1765
     },
     {
       "sura": 113,
       "filename": "sura-113.html",
-      "sha256": "cf6fff0de1c49fd27b14e2be580c161c34952c25477ca518d45074482c371a35",
-      "bytes": 1828
+      "sha256": "a626ae3104f293a1e28ff276dfd80ef33da3b14b254e3c5525b17fa30c23c11b",
+      "bytes": 1866
     },
     {
       "sura": 114,
       "filename": "sura-114.html",
-      "sha256": "c29ea1f3941773f297ca833423fb2ffc8d139bad362aafd9754459b38a38b037",
-      "bytes": 1761
+      "sha256": "6f5394483635ebe3a43da504c3dc6a30b0d996db1aab7186b75d0843ef4229b1",
+      "bytes": 2373
     }
   ],
-  "validation": {
-    "countIs114": true,
-    "suras1to114EachOnce": true
+  "counts": {
+    "changedVsParentHead": 93,
+    "unchangedVsParentHead": 21
   }
 }

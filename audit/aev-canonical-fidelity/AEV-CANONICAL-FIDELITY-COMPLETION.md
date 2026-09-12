@@ -102,3 +102,55 @@ Final pre-CONTENTS scope-closure determination:
 ---
 
 Praise be to God Alone.
+
+---
+
+## Post-Seal Correction — Cumulative GOD Statistics Package B
+
+**Status:** PASS  
+**Type:** POST-SEAL CANONICAL-FIDELITY CORRECTION  
+**Parent HEAD (Package A checkpoint):** `2c95021501972889972706d58fc30e2a78b89ef8`  
+**Recorded:** 2026-09-12T21:46:34.976Z
+
+### Defect corrected
+
+After the AEV website canonical-fidelity seal, a post-seal defect was verified: cumulative GOD statistics printed on AEV Quran PDF pages **24–395** were missing from the website after Sura 1 (only p.24 remained).
+
+### Correction (Package B)
+
+Package B restored **page-level** cumulative GOD statistics (not Sura-level totals):
+
+- **372/372** statistics-bearing PDF pages represented
+- Existing **p.24 / Sura 1** labels + values **preserved** (`sura-001.html` unchanged)
+- **371** new markers on PDF pages **25–395** across **93** Sura HTML files
+- pp.**25–394**: values only
+- p.**395**: `2698*` / `118123*` + full canonical Quran-wide explanatory note after `114:6`
+- Shared PDF pages: one marker, owned by the final content segment on that printed page
+- Authoritative insertion map derived from PDF running headers + page-end geometry
+
+### Verification
+
+| Check | Result |
+|-------|--------|
+| Package B | **PASS** |
+| Quran canonical units | **114/114 MATCH** |
+| Broken internal links | **0** |
+| Appendix TOC | **38/38 MATCH** |
+| Appendix bodies | **38/38 MATCH** |
+| Proclaiming / Preface / Introduction / AEV Index | **Unchanged / PASS** |
+
+### Reseal artifacts updated
+
+- `audit/quran-verification/sura-file-hashes.json` — 114/114 present-state hashes
+- `audit/quran-verification/QURAN-VERIFICATION-COMPLETION.md` — Package B section
+- `audit/aev-canonical-fidelity/closed-scope-hashes.json` — Sura hashes refreshed
+- `audit/aev-canonical-fidelity/aev-canonical-fidelity-baseline.json` — Package B correction record
+- `audit/aev-canonical-fidelity/evidence-index.json` — Package B evidence entry
+- `audit/aev-canonical-fidelity/AEV-CANONICAL-FIDELITY-COMPLETION.md` — this section
+
+Unrelated locked front-matter and appendix-body hash entries are preserved.
+
+> **AEV POST-SEAL CORRECTION — CUMULATIVE GOD STATISTICS PACKAGE B — PASS**  
+> **Parent HEAD:** `2c95021501972889972706d58fc30e2a78b89ef8`
+
+Praise be to God Alone.

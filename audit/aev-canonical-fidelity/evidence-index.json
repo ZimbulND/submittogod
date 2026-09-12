@@ -1,7 +1,7 @@
 {
   "recordType": "aev-canonical-fidelity-evidence-index",
   "recordVersion": "1.0.0",
-  "generatedAt": "2026-09-12T17:58:00.000Z",
+  "generatedAt": "2026-09-12T21:46:34.976Z",
   "purpose": "Map each certified intended AEV website canonical-content scope to its strongest durable evidence, with accurate evidence-class limits.",
   "evidenceClasses": {
     "REPOSITORY_VERIFIABLE": "Independently confirmable from the Git repository / working tree without relying on missing TEMP files",
@@ -11,7 +11,7 @@
     "DETERMINISTIC_PRESENT_STATE_RECONCILIATION": "Repeatable present-state comparison against AEV PDF controlling boundaries",
     "ACCEPTED_READ_ONLY_SCOPE_DETERMINATION": "Authorized read-only project determination (not a page-level content audit)"
   },
-  "checkpointHead": "f987da888610675665adf479ac1c83c3076236f0",
+  "checkpointHead": "2c95021501972889972706d58fc30e2a78b89ef8",
   "scopes": [
     {
       "id": "proclaiming",
@@ -64,7 +64,7 @@
     {
       "id": "quran-suras",
       "label": "Quran Suras 1–114",
-      "status": "114/114 MATCH / locked",
+      "status": "114/114 MATCH / locked-after-package-b-reseal",
       "strongestEvidence": [
         {
           "class": "EXISTING_PERMANENT_QURAN_PACKAGE",
@@ -80,6 +80,10 @@
           "class": "REPOSITORY_VERIFIABLE",
           "artifact": "closed-scope-hashes.json",
           "role": "Umbrella present-state inventory including all 114 Sura HTML files at final checkpoint"
+        },
+        {
+          "class": "COMMITTED_CORRECTION_HISTORY",
+          "note": "Package B (Cumulative GOD page statistics) post-seal correction verified PASS; Sura wording unchanged; hashes refreshed in sura-file-hashes.json"
         }
       ],
       "evidenceLimits": [
@@ -217,5 +221,37 @@
     "Does not claim every physical PDF page was audited or reproduced as a website page",
     "Does not certify search/navigation/accessibility/responsive behavior/general website functionality/deployment",
     "Does not assert durable availability of former TEMP A1–A4 or B1–B4 working directories"
+  ],
+  "postSealCorrections": [
+    {
+      "id": "cumulative-god-statistics-package-b",
+      "status": "PASS",
+      "type": "POST-SEAL CANONICAL-FIDELITY CORRECTION",
+      "parentHead": "2c95021501972889972706d58fc30e2a78b89ef8",
+      "recordedAt": "2026-09-12T21:46:34.976Z",
+      "summary": "Restored omitted canonical cumulative GOD page-level statistics for PDF pages 25–395 (371 new markers across 93 Sura files; Sura 1 / p.24 preserved; 372/372 total).",
+      "evidence": [
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "audit/quran-verification/sura-file-hashes.json",
+          "role": "Refreshed 114/114 present-state Sura SHA-256 manifest after Package B"
+        },
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "closed-scope-hashes.json",
+          "role": "Umbrella inventory with Package B Sura hashes refreshed"
+        },
+        {
+          "class": "DETERMINISTIC_PRESENT_STATE_RECONCILIATION",
+          "controllingSource": "AEV PDF pages 24–395 cumulative GOD footer pairs + running headers",
+          "result": "PACKAGE B — PASS; page-end markers 372/372; finals 2698*/118123*; Quran canonical units 114/114 MATCH"
+        }
+      ],
+      "limits": [
+        "Does not rewrite Quran verse/heading/footnote wording",
+        "Statistics are page-level cumulative values, not Sura-level totals",
+        "TEMP page-insertion-map.json is planning/implementation evidence, not a permanent repository dependency"
+      ]
+    }
   ]
 }

@@ -255,3 +255,63 @@ See `sura-file-hashes.json` for all 114 Sura file SHA-256 values.
 > **Canonical PDF SHA-256:** `40792b2d9b2464747d4e3cf83f72165197b277a0b6691e6e058277e7eda78055`
 
 Praise be to God Alone.
+
+---
+
+## Post-Seal Correction — Cumulative GOD Statistics Package B
+
+**Status:** PASS  
+**Type:** POST-SEAL CANONICAL-FIDELITY CORRECTION  
+**Parent HEAD (Package A checkpoint):** `2c95021501972889972706d58fc30e2a78b89ef8`  
+**Recorded:** 2026-09-12T21:46:34.976Z
+
+### Purpose
+
+After the original Quran wording seal, a verified canonical defect remained: the Authorized English Version prints **page-level cumulative GOD statistics** on every Quran PDF page from **24 through 395**, but the website retained only the **p.24 / Sura 1** pair.
+
+**Package B** restored the omitted apparatus without changing Quran verse wording, verse numbering, headings, footnotes, transliterations, punctuation, capitalization, or navigation chrome.
+
+### Canonical representation (not Sura-level totals)
+
+| Rule | Statement |
+|------|-----------|
+| Page-level | Exactly **ONE** statistics marker per canonical Quran PDF page |
+| Placement | At the HTML position corresponding to the **end of that printed PDF page** |
+| Shared pages | **ONE** marker only, owned by the final Sura/content segment on that page |
+| Multi-page Suras | May contain multiple page-end markers |
+| Forbidden | Do not convert page totals into chapter totals; do not duplicate one PDF-page pair across Sura files |
+
+### Accounting
+
+| Item | Value |
+|------|-------|
+| Statistics-bearing PDF pages | **24–395** (372 pages) |
+| Existing p.24 / Sura 1 marker | **Preserved unchanged** (labels + values) |
+| New markers restored (pp.25–395) | **371** |
+| Total canonical page markers | **372** |
+| Sura HTML files modified | **93** |
+| `sura-001.html` | **Unchanged** |
+| pp.25–394 presentation | **Values only** (no repeated labels) |
+| p.395 | `2698*` / `118123*` + canonical Quran-wide explanatory note after `114:6` in `sura-114.html` |
+
+### Verification (Package B)
+
+| Check | Result |
+|-------|--------|
+| Package B verdict | **PASS** |
+| Footer value pairs | **372/372** exact |
+| Header/end-verse mismatches | **0** |
+| Quran canonical units (verse/heading/fn-block) | **114/114 MATCH** |
+| Broken internal links | **0** |
+| Appendix TOC / bodies | **38/38 MATCH** (unchanged) |
+| Protected front-matter scopes | **Unchanged / PASS** |
+
+### Hash refresh
+
+All **114** present-state Sura SHA-256 values were recalculated from the working-tree files and written to `sura-file-hashes.json`. This refresh records the Package B statistics apparatus; it does **not** imply wording changes to verses, headings, or footnotes.
+
+> **POST-SEAL CORRECTION — CUMULATIVE GOD STATISTICS PACKAGE B — PASS**  
+> **Parent HEAD:** `2c95021501972889972706d58fc30e2a78b89ef8`  
+> **Markers:** 372/372 page-level (371 new + preserved p.24)
+
+Praise be to God Alone.

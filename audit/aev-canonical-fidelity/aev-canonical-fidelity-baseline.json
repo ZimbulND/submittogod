@@ -1,7 +1,7 @@
 {
   "recordType": "aev-canonical-fidelity-baseline",
   "recordVersion": "1.0.0",
-  "generatedAt": "2026-09-12T17:58:00.000Z",
+  "generatedAt": "2026-09-12T21:46:34.976Z",
   "certification": {
     "statement": "AEV Website Canonical Fidelity — COMPLETE (intended scopes)",
     "genuineCanonicalDiscrepanciesRemainingWithinCertifiedScope": 0,
@@ -14,12 +14,17 @@
   "repository": {
     "path": "C:/Users/Owner/OneDrive/Documents/GitHub/submittogod",
     "branch": "main",
-    "headSha": "f987da888610675665adf479ac1c83c3076236f0",
-    "originMainSha": "f987da888610675665adf479ac1c83c3076236f0",
-    "aheadBehind": { "ahead": 0, "behind": 0 },
+    "headSha": "2c95021501972889972706d58fc30e2a78b89ef8",
+    "originMainSha": "2c95021501972889972706d58fc30e2a78b89ef8",
+    "aheadBehind": {
+      "ahead": 0,
+      "behind": 0
+    },
     "synchronizedWithOrigin": true,
     "workingTreeAtRecordCreation": "?? sources/ (and this new untracked audit/aev-canonical-fidelity/ package prior to commit)",
-    "gitStatusPorcelainExpectedBeforePackage": "?? sources/"
+    "gitStatusPorcelainExpectedBeforePackage": "?? sources/",
+    "workingTreeAtPackageBReseal": "93 Package B Sura HTML modifications + 6 audit/completion reseal records uncommitted; ?? sources/",
+    "note": "Parent HEAD remains Package A checkpoint 2c95021 until Package B + reseal are committed."
   },
   "canonicalPdf": {
     "path": "sources/authorized-english-version/authorized-english-version.pdf",
@@ -36,8 +41,9 @@
   "manifests": {
     "quran": {
       "result": "114/114 MATCH",
-      "status": "locked",
-      "package": "audit/quran-verification/"
+      "status": "locked-after-package-b-reseal",
+      "package": "audit/quran-verification/",
+      "note": "Sura file hashes refreshed to Package B present state; verse/heading/footnote wording unchanged"
     },
     "appendixBodies": {
       "result": "38/38 MATCH",
@@ -70,9 +76,10 @@
     {
       "id": "quran-suras",
       "label": "Quran Suras 1–114",
-      "status": "114/114 MATCH / locked",
+      "status": "114/114 MATCH / locked-after-package-b-reseal",
       "primaryFilesGlob": "sura-001.html … sura-114.html",
-      "manifestPackage": "audit/quran-verification/"
+      "manifestPackage": "audit/quran-verification/",
+      "packageB": "Cumulative GOD page statistics restored (372/372 page markers); wording unchanged"
     },
     {
       "id": "quran-chapters-list",
@@ -156,5 +163,43 @@
       "path": "audit/appendix-verification/",
       "role": "Permanent Appendix bodies 1–38 verification package (includes evidence-class limits for A1–A4 TEMP artifacts)"
     }
-  ]
+  ],
+  "postSealCorrection": {
+    "id": "cumulative-god-statistics-package-b",
+    "status": "PASS",
+    "type": "POST-SEAL CANONICAL-FIDELITY CORRECTION",
+    "parentHead": "2c95021501972889972706d58fc30e2a78b89ef8",
+    "summary": "Canonical PDF page-level cumulative GOD statistics omitted after Sura 1 were restored for PDF pages 25–395.",
+    "rules": [
+      "ONE statistics marker per canonical Quran PDF page at the HTML position corresponding to the end of that printed page",
+      "Shared PDF pages receive ONE marker owned by the final Sura/content segment on that page",
+      "Markers are page-level cumulative values, not Sura-level totals"
+    ],
+    "accounting": {
+      "statisticsBearingPdfPages": "24–395",
+      "totalMarkers": 372,
+      "existingP24Preserved": true,
+      "newMarkers": 371,
+      "suraFilesModified": 93,
+      "sura001Unchanged": true,
+      "valuesOnlyPages": "25–394",
+      "finalPage": {
+        "pdfPage": 395,
+        "values": [
+          "2698*",
+          "118123*"
+        ],
+        "placement": "after 114:6 in sura-114.html",
+        "meaning": "Quran-wide cumulative totals (not Sura 114 chapter totals)"
+      }
+    },
+    "verification": {
+      "packageB": "PASS",
+      "quranCanonicalUnits": "114/114 MATCH",
+      "brokenInternalLinks": 0,
+      "appendixToc": "38/38 MATCH",
+      "appendixBodies": "38/38 MATCH",
+      "protectedScopesUnchanged": true
+    }
+  }
 }
