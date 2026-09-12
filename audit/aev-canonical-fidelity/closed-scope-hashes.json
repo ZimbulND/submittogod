@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-12T21:46:34.976Z",
+  "generatedAt": "2026-09-12T23:48:50.607Z",
   "recordType": "aev-canonical-fidelity-closed-scope-hashes",
   "recordVersion": "1.0.0",
-  "checkpointHead": "2c95021501972889972706d58fc30e2a78b89ef8",
+  "checkpointHead": "d269098d811e1789db4d0e99611e5e066ab6f15f",
   "expectedFileCount": 158,
   "fileCount": 158,
   "lockedNamedHashesMatchExpected": true,
@@ -57,561 +57,561 @@
     },
     {
       "filename": "sura-002.html",
-      "sha256": "25ccd854ae0d27afb833b8350bb97f4d44fa226858f896145514dfc89a6d7bd9",
-      "bytes": 94385,
+      "sha256": "f5be3aebe10a8439fa9267de848356282e3237b4a4d4f5626370d8a0b0664d4a",
+      "bytes": 96849,
       "scopeGroup": "quran-sura",
       "sura": 2
     },
     {
       "filename": "sura-003.html",
-      "sha256": "887439c4496dd2428c38488cea29d2839cd7027bcd34557c0aacc968f667ed01",
-      "bytes": 50978,
+      "sha256": "0c6cfafc3b0b0a69300363efde726b4b631dc987d8dd4e494dd6735a16755a1d",
+      "bytes": 52386,
       "scopeGroup": "quran-sura",
       "sura": 3
     },
     {
       "filename": "sura-004.html",
-      "sha256": "6dffe326aca974bb0bb9c21c8ac14435912465ecfedce4012fdaaebc6c43fe08",
-      "bytes": 54076,
+      "sha256": "3f382033289ad7efe252dcfcdf6d8f972636de569fb88f58eeefaffc693820b1",
+      "bytes": 55484,
       "scopeGroup": "quran-sura",
       "sura": 4
     },
     {
       "filename": "sura-005.html",
-      "sha256": "e55fa044987118257c4cd2eca88b34c7c172257c2d8d61de250e3104d7538952",
-      "bytes": 41716,
+      "sha256": "bb5b753e7dc48f840450a40fb3ffc84e812472b49fe969e587fd328cd47c93ba",
+      "bytes": 42860,
       "scopeGroup": "quran-sura",
       "sura": 5
     },
     {
       "filename": "sura-006.html",
-      "sha256": "6619187245c5b0f83180c4afcaaaf0f8598e0ae57f9c990191b167cfccb821d8",
-      "bytes": 45727,
+      "sha256": "361957ae18122c0222c8356e8505564e31bfe7454be48fdae7ff409c33431a69",
+      "bytes": 46959,
       "scopeGroup": "quran-sura",
       "sura": 6
     },
     {
       "filename": "sura-007.html",
-      "sha256": "27ee607e625159e3cb199063432b2857fbcf57f72913ec108eecd800372510ae",
-      "bytes": 47630,
+      "sha256": "f7cba49e39ff7ec8f7c377c202fafb7991d77b0098ffce01e1d44c87f6fd284b",
+      "bytes": 48950,
       "scopeGroup": "quran-sura",
       "sura": 7
     },
     {
       "filename": "sura-008.html",
-      "sha256": "7aab6931abb7c0bde35ef823f2c6b0d6b96e34ac257e2e99b95671eae648cd37",
-      "bytes": 19853,
+      "sha256": "e8bf3488b00b94201575a5befbd8e31caa235e7138f8f24de5bff94428fe2b9f",
+      "bytes": 20293,
       "scopeGroup": "quran-sura",
       "sura": 8
     },
     {
       "filename": "sura-009.html",
-      "sha256": "ea19d781773700d182d0e786867928ab623d6cfe71518afa608e880791bbe146",
-      "bytes": 39696,
+      "sha256": "3bed7fbe2d5d49e13208b7d62c20b8e250681841c984b05d7fa78211ff6204a5",
+      "bytes": 40752,
       "scopeGroup": "quran-sura",
       "sura": 9
     },
     {
       "filename": "sura-010.html",
-      "sha256": "6a5d90e8f3cabe1faa7f9ed3df955f402ca9c43bc94e6681369f372ff22c2106",
-      "bytes": 27072,
+      "sha256": "413bcbbe378832366530a9619c8c9411ee8cb48616a05176e9fa63eecc7190a0",
+      "bytes": 27776,
       "scopeGroup": "quran-sura",
       "sura": 10
     },
     {
       "filename": "sura-011.html",
-      "sha256": "08803f5d3512654d2f0b0513168497d121eb1cf5b927e7db0adab8c17a9df126",
-      "bytes": 28799,
+      "sha256": "8d89b193c5b89a65612f2f5ee13e18256ea15cf4205194f36b24aacc8930bc8d",
+      "bytes": 29591,
       "scopeGroup": "quran-sura",
       "sura": 11
     },
     {
       "filename": "sura-012.html",
-      "sha256": "008965a72fda12c4460bcf6afff3f1b50ca2b3b3ee5ad3328e83911906112a36",
-      "bytes": 25624,
+      "sha256": "056d03589f2fc3beea6d7fbfda7c543a40f8b16b0d66235d87b28c609f1aff3f",
+      "bytes": 26240,
       "scopeGroup": "quran-sura",
       "sura": 12
     },
     {
       "filename": "sura-013.html",
-      "sha256": "78d602b4e2bfe010be2de13de46d5143402cabad2a0d3cf75370eb1170d8a1f2",
-      "bytes": 13829,
+      "sha256": "9cd6de8a06576b7d7d020e7d9fd68ff6bca38f3a4203205411e8681d0f01fbfb",
+      "bytes": 14181,
       "scopeGroup": "quran-sura",
       "sura": 13
     },
     {
       "filename": "sura-014.html",
-      "sha256": "4b1cf7db6d4e24dcea839601c482c8b17eb1b38daa413578672347735125662e",
-      "bytes": 14312,
+      "sha256": "0531f6717751dbbdf3d6e396868a7ad25dcb63b8a587097fa10514fcb334d17b",
+      "bytes": 14664,
       "scopeGroup": "quran-sura",
       "sura": 14
     },
     {
       "filename": "sura-015.html",
-      "sha256": "eb957521c109da303b3614b4fef1a1ab0294eed8fd89bbf61166c4a14bf6ecec",
-      "bytes": 12580,
+      "sha256": "74f8282032f0d5b1c533171d4785f00610acb9eb78254a19b289a08753cccdce",
+      "bytes": 12844,
       "scopeGroup": "quran-sura",
       "sura": 15
     },
     {
       "filename": "sura-016.html",
-      "sha256": "c89491d96bc05e7421781add5e58966af4dccf60000ea4403ee43eeb2124c8f7",
-      "bytes": 29046,
+      "sha256": "02c0fb6fa721d1722660c8d747f935d813dea50beb4f04e0605654a9515c44f5",
+      "bytes": 29838,
       "scopeGroup": "quran-sura",
       "sura": 16
     },
     {
       "filename": "sura-017.html",
-      "sha256": "7b1025c997569536f64e55970ef29835569886f46b991923fb67f0a967135e3f",
-      "bytes": 24837,
+      "sha256": "e85873fb587be3dacdf56a8c0f70c8fcdcbd48f014a1b97d55532bcbd9d4b280",
+      "bytes": 25453,
       "scopeGroup": "quran-sura",
       "sura": 17
     },
     {
       "filename": "sura-018.html",
-      "sha256": "d266d02ddd688b7ed3f6c210afa0ff61ac2f7723737ea2c5be93980b2894452c",
-      "bytes": 25658,
+      "sha256": "e280694ce4521453823eb4f222211578161e1ed45245c773d57db5102b73aa96",
+      "bytes": 26362,
       "scopeGroup": "quran-sura",
       "sura": 18
     },
     {
       "filename": "sura-019.html",
-      "sha256": "f88c39e7c477a7f7c7f3e46cdff3fa1e157b34a9c7ab365f42098dddc7fcd981",
-      "bytes": 16142,
+      "sha256": "d5f120516899ef0c8c22af35f397e6542e5ef6e4869d48c1add9f4acd7059412",
+      "bytes": 16494,
       "scopeGroup": "quran-sura",
       "sura": 19
     },
     {
       "filename": "sura-020.html",
-      "sha256": "57ae904e3040d57597ac3a1d1f612ffa3d37c0c507b61d57ee6f7194d027eb7f",
-      "bytes": 21609,
+      "sha256": "14c82427b22a310558eb85e73093cdb4114b87921a9ef8020ce9d5c318c4004c",
+      "bytes": 22225,
       "scopeGroup": "quran-sura",
       "sura": 20
     },
     {
       "filename": "sura-021.html",
-      "sha256": "5ca16ba070845e5e83734be1cdfa3cededc946ad997976f0efb93ae943ad8f21",
-      "bytes": 21167,
+      "sha256": "e256cb7497f8bc2760c8b5aa93592bf8d838d34b236cf5eca16d05772025c613",
+      "bytes": 21695,
       "scopeGroup": "quran-sura",
       "sura": 21
     },
     {
       "filename": "sura-022.html",
-      "sha256": "96953cdd4a0d63d22781d5cf0dc6aa4b7468bfd5ca7c493ceb7b14259f4b2821",
-      "bytes": 20598,
+      "sha256": "3c0093de7284fd034576f86b1f9ee5744eebcc6b4d0c47dca5479c9f95145f77",
+      "bytes": 21126,
       "scopeGroup": "quran-sura",
       "sura": 22
     },
     {
       "filename": "sura-023.html",
-      "sha256": "8687152374fcdd02309b3343830332f64cf5c1b552a2cd3b5702eb4078bb7e0f",
-      "bytes": 17532,
+      "sha256": "96e139ed18129c0c1115ce5381c6d58b9fae28f019d69c6c8df3b33359ad904a",
+      "bytes": 17972,
       "scopeGroup": "quran-sura",
       "sura": 23
     },
     {
       "filename": "sura-024.html",
-      "sha256": "96a9caec725ea646abe4346c0a3636080cf688b4bef5d1b7b0856b773ddd6fe8",
-      "bytes": 19070,
+      "sha256": "277c24be4ea802c398399a6c8c03ee77d7cdd6b2555df2273649e0f906bd35ff",
+      "bytes": 19598,
       "scopeGroup": "quran-sura",
       "sura": 24
     },
     {
       "filename": "sura-025.html",
-      "sha256": "51318205ff501aa573a6c3ea8d9a8b32962abb89e6a92096ed87c66729ae6379",
-      "bytes": 16339,
+      "sha256": "5c1ce7bfcf56714e35b46e249022af0a2f572c2187d4d4b6e2d6b45440a653c8",
+      "bytes": 16691,
       "scopeGroup": "quran-sura",
       "sura": 25
     },
     {
       "filename": "sura-026.html",
-      "sha256": "40da13941a5ef9677fbc90f9f114b9b3d88a76fe8c83bd671ff2972b9f64c185",
-      "bytes": 23529,
+      "sha256": "6a588148d67a6e5297b2afc351b1971b1741933f51e7ef645bec0cd66710b7fc",
+      "bytes": 24145,
       "scopeGroup": "quran-sura",
       "sura": 26
     },
     {
       "filename": "sura-027.html",
-      "sha256": "1719eca62ba077e978e9af7d06b795837a0423aad03ab6a13d2d0d7782d33c3d",
-      "bytes": 18361,
+      "sha256": "5c8144f6afa058a4d86e3ee57b7f185a216a7966bdef3008c0a3bbe77ec4a5d6",
+      "bytes": 18801,
       "scopeGroup": "quran-sura",
       "sura": 27
     },
     {
       "filename": "sura-028.html",
-      "sha256": "06e46031124ce7560078bc7fca146881130f9d1b3b83d799dacbab91ee216b88",
-      "bytes": 21345,
+      "sha256": "5563161b02ec7f8a954cdc244df6d099ed4941fe29d37311eb7025275f121a9a",
+      "bytes": 21961,
       "scopeGroup": "quran-sura",
       "sura": 28
     },
     {
       "filename": "sura-029.html",
-      "sha256": "bc00bf8c57786aadade199f91e998b3366574a58571af1ba88da41b28bde6569",
-      "bytes": 17152,
+      "sha256": "6befbde2b8b96c372790f7d236a9f2eaae01cb44143c392dfcf46b43ac34b9dd",
+      "bytes": 17504,
       "scopeGroup": "quran-sura",
       "sura": 29
     },
     {
       "filename": "sura-030.html",
-      "sha256": "d649cb6a0d1e05f1b519594e919550b1f6f81ffad6c79a9642a8d999c97f7a81",
-      "bytes": 13597,
+      "sha256": "1c6ad67b9e1eceafe4f52898b28415ddfd58a7c8f382325c0ba96f163f7a6530",
+      "bytes": 13949,
       "scopeGroup": "quran-sura",
       "sura": 30
     },
     {
       "filename": "sura-031.html",
-      "sha256": "ade9a7f66923b3b2af76fb493e387893639c619c762296429420da298ec6d188",
-      "bytes": 9212,
+      "sha256": "1c9bbdba6f729e31e2543dcca91cb22a2b5c5e5ff1ad0d0eb20fe5e0fa4ebd37",
+      "bytes": 9469,
       "scopeGroup": "quran-sura",
       "sura": 31
     },
     {
       "filename": "sura-032.html",
-      "sha256": "86785b06b098d4dccc10a459a8cb6c0a6c59644162bce6ddb1439fec031c0f79",
-      "bytes": 7344,
+      "sha256": "f735ec6aae919339abe29736462b6b8a4a8106ceea17d022e373f86a080016c2",
+      "bytes": 7432,
       "scopeGroup": "quran-sura",
       "sura": 32
     },
     {
       "filename": "sura-033.html",
-      "sha256": "02e2f296e4565e5c9dd2ed45646b0a66a82c692d5e3810341918b010d79cd5a5",
-      "bytes": 21637,
+      "sha256": "b7d80904dfb9990d70746a3af457c215ab7d79951c80eb3b12ea16bae9f30657",
+      "bytes": 22253,
       "scopeGroup": "quran-sura",
       "sura": 33
     },
     {
       "filename": "sura-034.html",
-      "sha256": "7befeaa22d37d8d2305bb8507cb4b883accab50493a7e3d1a22241707aafb7bc",
-      "bytes": 14954,
+      "sha256": "8dec267abf48f29d0e1b5b177dd366a20831ca83988c587683ca9c697b1bbff0",
+      "bytes": 15306,
       "scopeGroup": "quran-sura",
       "sura": 34
     },
     {
       "filename": "sura-035.html",
-      "sha256": "222f5adb202ff10c772842aaa236e0d5a2e469cb56cace937a57423d2c8bdea5",
-      "bytes": 12324,
+      "sha256": "418c0e4e8b462f62be2dbaaac0b7f8c0542c08624407230da80c0e928b2252bd",
+      "bytes": 12588,
       "scopeGroup": "quran-sura",
       "sura": 35
     },
     {
       "filename": "sura-036.html",
-      "sha256": "d74b66ae2269fca2074f8e17eb3f82a5fb319ebb84d4367e5dfa4209f4ff230b",
-      "bytes": 13600,
+      "sha256": "af0c5bc32d371a7fed1e33b0b9dfa060cc181a82921e8a1749eb8dc41ddb98f3",
+      "bytes": 13952,
       "scopeGroup": "quran-sura",
       "sura": 36
     },
     {
       "filename": "sura-037.html",
-      "sha256": "9f4335cbb0f9a4c99b7dce81f6b85a5eaf92cbb4a37c9d923cd8fe632687e053",
-      "bytes": 18224,
+      "sha256": "6f96e9f055c28fdef24262160083dcd1021fcc8efcee370bb84e0622f4d6a209",
+      "bytes": 18664,
       "scopeGroup": "quran-sura",
       "sura": 37
     },
     {
       "filename": "sura-038.html",
-      "sha256": "d3163271750f7d3d04da54c6f2bf8000408f134fe1020bdb7cb2f52a7f1c2481",
-      "bytes": 14194,
+      "sha256": "0c0c129dc16baefee5816d295a8e4740073387df86c0852b0695398eea61ca99",
+      "bytes": 14546,
       "scopeGroup": "quran-sura",
       "sura": 38
     },
     {
       "filename": "sura-039.html",
-      "sha256": "7fefbd25ca19d02ce32914bce313849bb0f581397a766ba22a69691a22c6449e",
-      "bytes": 18790,
+      "sha256": "0e955440846ccb08eb374ae5ed2bba4906104f264afded86fb04e35f0e4600f3",
+      "bytes": 19311,
       "scopeGroup": "quran-sura",
       "sura": 39
     },
     {
       "filename": "sura-040.html",
-      "sha256": "d66e3203eb12bc3a851291ce986f0f7855c045f8ebf579288cb8bc1f16073ae5",
-      "bytes": 20828,
+      "sha256": "302fd8e8457329b0513f760419c6879f660b49f449982cc8863e5fc0e8457af9",
+      "bytes": 21349,
       "scopeGroup": "quran-sura",
       "sura": 40
     },
     {
       "filename": "sura-041.html",
-      "sha256": "d62fe0c47a534e5d9e29aab5c915227876045eac9902ec91ced03f5559fb891f",
-      "bytes": 13946,
+      "sha256": "33cd47db7b2f0f896f4e6c3a3c2912eabdf3fb561a29d7ab1d2d1029d1744d31",
+      "bytes": 14298,
       "scopeGroup": "quran-sura",
       "sura": 41
     },
     {
       "filename": "sura-042.html",
-      "sha256": "9d62bd018cb36877a1ea47c12660cbb87c492d60fb1a2eea6435733f9812ba57",
-      "bytes": 13936,
+      "sha256": "4290601ef1bf4b651c6d4dc0544e7d347ff0b1bc7476570f4bb00ca4f4a301fb",
+      "bytes": 14200,
       "scopeGroup": "quran-sura",
       "sura": 42
     },
     {
       "filename": "sura-043.html",
-      "sha256": "cf0355034991f9fe59cdabd41c04a9fcb8f62d81fbd71b4285af5bc73f96c5b8",
-      "bytes": 15965,
+      "sha256": "9afe9c69789a302424b6340afac672b6cadfb58ea77517f31c950d357c4afcf9",
+      "bytes": 16405,
       "scopeGroup": "quran-sura",
       "sura": 43
     },
     {
       "filename": "sura-044.html",
-      "sha256": "763352ae3b41d529166b9ad9e06997ed832dd95485e7d1a2a090de7a1ceeb3dc",
-      "bytes": 7691,
+      "sha256": "5908551dfbce8d1c32b942c530f0fea071cf8c24ca2538b326ad53b8c3811d2e",
+      "bytes": 7867,
       "scopeGroup": "quran-sura",
       "sura": 44
     },
     {
       "filename": "sura-045.html",
-      "sha256": "6bc8bf5c6f16633b038f07f968bf3af30c90baba0f3fb3cf4ca8fc15db8773ee",
-      "bytes": 8429,
+      "sha256": "8d59fe938993d2702faeff80954084961be6c2675d39c9534cce5829c7485f4d",
+      "bytes": 8605,
       "scopeGroup": "quran-sura",
       "sura": 45
     },
     {
       "filename": "sura-046.html",
-      "sha256": "f58bac68afae1c396af67796d25b13de722e3bcf8b03c0c10d86abaf5ca6bb5d",
-      "bytes": 11150,
+      "sha256": "09671f3c79b833918349a3e84a5a57fcc94b75ab9e57721966d007b35e3d032c",
+      "bytes": 11414,
       "scopeGroup": "quran-sura",
       "sura": 46
     },
     {
       "filename": "sura-047.html",
-      "sha256": "1059f6f6b6eda7166048b193dc6423cc27063932099674a109849012bfb528cb",
-      "bytes": 9504,
+      "sha256": "683c72615936310e92ebc5b48fa1a189c03ead9436887ef4da525a9112f4479f",
+      "bytes": 9768,
       "scopeGroup": "quran-sura",
       "sura": 47
     },
     {
       "filename": "sura-048.html",
-      "sha256": "1b3e87d9e7bb9276321ea65fd249d54bced26ff4b027b4e674ea4208df3b6c0c",
-      "bytes": 9617,
+      "sha256": "bd3d10240501a4e6e102fc05c900cb296d7981f83d0b8f2e0c108cde6efa5d9c",
+      "bytes": 9793,
       "scopeGroup": "quran-sura",
       "sura": 48
     },
     {
       "filename": "sura-049.html",
-      "sha256": "7fa2f48e61927814dda93008598c9a8cab44c162918e0a3f39649738991d1570",
-      "bytes": 6606,
+      "sha256": "ddd84738c43f755b0c6c60075df5e3d9fe50fe9100f9d5622b638e71315ef819",
+      "bytes": 6782,
       "scopeGroup": "quran-sura",
       "sura": 49
     },
     {
       "filename": "sura-050.html",
-      "sha256": "a99de98c70372673a06be63ff480c502e0fb7d20133cdda5c77b6bae00d0a382",
-      "bytes": 6628,
+      "sha256": "acdc64245808e661c890dae907449da04c259f205ad616b7ae8862fa41c5e501",
+      "bytes": 6797,
       "scopeGroup": "quran-sura",
       "sura": 50
     },
     {
       "filename": "sura-051.html",
-      "sha256": "9515f8de65aadd06bfa4c756ef9eb5d49b0480b4e3261b2f9dbc4c24893aef63",
-      "bytes": 6987,
+      "sha256": "1c308172ab6d0cdb0ad950bf8e9ca0fe2ce1da3951ba2186b1504625cade6296",
+      "bytes": 7075,
       "scopeGroup": "quran-sura",
       "sura": 51
     },
     {
       "filename": "sura-052.html",
-      "sha256": "2d2936a371fb5cc5abf48beb806618fe0e309a729155e8459e7b1054d9fbff52",
-      "bytes": 6261,
+      "sha256": "c24ec1fa4f4015547c62e20ca8352db1f63cf9557ceea4e1bdf51cba1bd5f7b0",
+      "bytes": 6437,
       "scopeGroup": "quran-sura",
       "sura": 52
     },
     {
       "filename": "sura-053.html",
-      "sha256": "167d7d0a183572647517ca92026fb325484803341fda8bfe0a53aa62dae5c820",
-      "bytes": 7350,
+      "sha256": "f9c2cf50fee0599d53e6d5f00110f4db6184b99fde224068827af309e14d2f30",
+      "bytes": 7526,
       "scopeGroup": "quran-sura",
       "sura": 53
     },
     {
       "filename": "sura-054.html",
-      "sha256": "eba8c61e1b45dc2e1008717d630eab11ea332ab66e9426e61614a6b629dea664",
-      "bytes": 7307,
+      "sha256": "06c3159f73a5f23aebaec43bb453ce3d1d7d61217355b7bf00e37673415e5d15",
+      "bytes": 7483,
       "scopeGroup": "quran-sura",
       "sura": 54
     },
     {
       "filename": "sura-055.html",
-      "sha256": "1f87f0aef64ccbde91d8b1998168608d0f634bbff950beeb1f551500ac68a50a",
-      "bytes": 8152,
+      "sha256": "205e6f4012082ff86a6e29a68994969dace7c21f7aa1185f51775ba861c0e6c5",
+      "bytes": 8328,
       "scopeGroup": "quran-sura",
       "sura": 55
     },
     {
       "filename": "sura-056.html",
-      "sha256": "293de7d39369ce9f6af8469343ab52ef1bcbdf034b5df83706771228b53d7b65",
-      "bytes": 9496,
+      "sha256": "17fab1bfd9205f1eb6ae7762300b6d4ee9621df5202bc3cbf8713ad4fd06c222",
+      "bytes": 9672,
       "scopeGroup": "quran-sura",
       "sura": 56
     },
     {
       "filename": "sura-057.html",
-      "sha256": "708811d59a626813187d49716a0bb1d87fcf75a353643ed4e89015abc8e8aacd",
-      "bytes": 9588,
+      "sha256": "2ee62f40dcdc64bb03e8123349d6d4ee81fff31894488571a1fa371d8aea789d",
+      "bytes": 9852,
       "scopeGroup": "quran-sura",
       "sura": 57
     },
     {
       "filename": "sura-058.html",
-      "sha256": "4ce97567ce0bd3f0e1c3b80b4f63d1cc2a85b86d7b176be01a331f832f2c654c",
-      "bytes": 7536,
+      "sha256": "a60f94dbbcefc72fe5d2d51768e9770145ccf8dd4ef4b0c47c1a227617127e14",
+      "bytes": 7712,
       "scopeGroup": "quran-sura",
       "sura": 58
     },
     {
       "filename": "sura-059.html",
-      "sha256": "d1b62d63792973e686ce4f71d718b07f5a65dcb7ff7dc1f25617d2382eb19018",
-      "bytes": 7509,
+      "sha256": "d134ce4529f6dfd833b5ac9010d8b7393c01dbfccdd0e06c8c01004e9dca2232",
+      "bytes": 7685,
       "scopeGroup": "quran-sura",
       "sura": 59
     },
     {
       "filename": "sura-060.html",
-      "sha256": "fdb496cc82cf824cc82c251d915e1eb13e54d03ee9242dc40babdbc624c3439e",
-      "bytes": 6298,
+      "sha256": "de5cadd1c64f0635e7fd6bb29515e3354514d5329e95e6fa55d7faa1cc9af4b5",
+      "bytes": 6386,
       "scopeGroup": "quran-sura",
       "sura": 60
     },
     {
       "filename": "sura-061.html",
-      "sha256": "a477491549e8534eb7eb36a79a90b62b0d0e0f3b12601a9be02ff872b39f1a6f",
-      "bytes": 4333,
+      "sha256": "273cdd31226aea1f22f85746e95553ba59c22abeb91af2809cd9a944c02aed8e",
+      "bytes": 4421,
       "scopeGroup": "quran-sura",
       "sura": 61
     },
     {
       "filename": "sura-062.html",
-      "sha256": "fa4ec9cc8271583423025dd909c5d5dcf98232c1c228a2d50df690302b8274a1",
-      "bytes": 3748,
+      "sha256": "df68a6e71073bd6fc733ff7ebb4d0bbf3471a9aadfcbb47a921e3d68efea786a",
+      "bytes": 3836,
       "scopeGroup": "quran-sura",
       "sura": 62
     },
     {
       "filename": "sura-063.html",
-      "sha256": "ada92f1f18f7c5858399184e72b80f2681899e7081eddde32b40ab1c5bf700aa",
-      "bytes": 4470,
+      "sha256": "7f9b3bb3b9915fbdabec1a96551eeeffbb039367b172e58a87748e0bf94cde4c",
+      "bytes": 4558,
       "scopeGroup": "quran-sura",
       "sura": 63
     },
     {
       "filename": "sura-064.html",
-      "sha256": "2bfaa1e09dadb2fbeba8d31fed0ebc4904a37d6b3d7853936824f4c855261b6f",
-      "bytes": 5089,
+      "sha256": "2aeb47e57a75dd2dad6bc88096302636434d66e2b6a705dfbc22d5f4ae7c214f",
+      "bytes": 5265,
       "scopeGroup": "quran-sura",
       "sura": 64
     },
     {
       "filename": "sura-065.html",
-      "sha256": "1bb97acc50f3a70f40ca1917d2903ad09b9dd73bb09f15d7bc6eb17feb60efce",
-      "bytes": 5699,
+      "sha256": "dbd0ac5cae4f66c3908af07564d81cb94711e4f8bd99036effcf7d6b8ed4f38f",
+      "bytes": 5787,
       "scopeGroup": "quran-sura",
       "sura": 65
     },
     {
       "filename": "sura-066.html",
-      "sha256": "e98f41fb3f30e2f6bee78ad4506c3664a07d2dc0c4cbb32f61431f5e196eda0c",
-      "bytes": 4874,
+      "sha256": "db6f389c44256784d7d13f72d155d7cb6847a76666b2320c033a8465e07f7497",
+      "bytes": 4962,
       "scopeGroup": "quran-sura",
       "sura": 66
     },
     {
       "filename": "sura-067.html",
-      "sha256": "f1ab55538221aba9bca63d0ebe569f4a4090e40fc0758de86055a5cf5646b4d7",
-      "bytes": 5900,
+      "sha256": "9584db261dc9919170eca92dc291df7afcebf914421efc18f0c9fb15ba5202b3",
+      "bytes": 5988,
       "scopeGroup": "quran-sura",
       "sura": 67
     },
     {
       "filename": "sura-068.html",
-      "sha256": "868b99357c6af512d923d11f0cbe57206b1d5d22fbb100fa273b57b01a25b379",
-      "bytes": 6350,
+      "sha256": "a33aa488695f84bb0bbcf52339691be5cf0a0763b647e8317034a886a225bee3",
+      "bytes": 6526,
       "scopeGroup": "quran-sura",
       "sura": 68
     },
     {
       "filename": "sura-069.html",
-      "sha256": "b6e71415fdadb1fcff8164d982fc3d3dfbe4c03d01aabc0ce07aeaea113ef53f",
-      "bytes": 6092,
+      "sha256": "1ee5d63bdf4f185e7437f62c02df5633e64df03d1dc42ddce3e533d15f264aee",
+      "bytes": 6180,
       "scopeGroup": "quran-sura",
       "sura": 69
     },
     {
       "filename": "sura-070.html",
-      "sha256": "f2421123dba6b6335fa3ed1aac0467fba94da9710dc9dd51cd3738bb4c1897a0",
-      "bytes": 5056,
+      "sha256": "e0ce3697acf38c7d90b9a25eea7bf2761716e78fe01f40985e32d81b2bffb0c6",
+      "bytes": 5232,
       "scopeGroup": "quran-sura",
       "sura": 70
     },
     {
       "filename": "sura-071.html",
-      "sha256": "65c4b8721a41984dc1b538bb549ca4765a03193c53465fa26fc847febd711693",
-      "bytes": 4556,
+      "sha256": "bc2ed96b2395b4a00d65b81017a7e9e876fda8dc65bb893b9d7219586c078bdc",
+      "bytes": 4644,
       "scopeGroup": "quran-sura",
       "sura": 71
     },
     {
       "filename": "sura-072.html",
-      "sha256": "3eb16a23ce26c3fec8dd01beb6235e44a1a13acd319e9e7339f8a32417942e4b",
-      "bytes": 5915,
+      "sha256": "f5d44d441c87428f6a6e81e7bc1a79026c522799c77c41fb6120928ad0c50e09",
+      "bytes": 6003,
       "scopeGroup": "quran-sura",
       "sura": 72
     },
     {
       "filename": "sura-073.html",
-      "sha256": "bb4ad2bdb9cd24b470cbd9e1be8e3d6c50c586e30673a3c560585592993034b8",
-      "bytes": 4204,
+      "sha256": "a86cc750e09330ec5c0f7a353bd5553de9e658f8a02df37dcbc4f81c4b9a47f6",
+      "bytes": 4292,
       "scopeGroup": "quran-sura",
       "sura": 73
     },
     {
       "filename": "sura-074.html",
-      "sha256": "f5e249e75e7b74035ba1f11dec0290529fb044f41145c9aaa99fcb03be974c49",
-      "bytes": 6627,
+      "sha256": "ae6accb9fd23459b028ba3bbbd0671670fff072eb4e87630b7f5b820b8c37ff4",
+      "bytes": 6715,
       "scopeGroup": "quran-sura",
       "sura": 74
     },
     {
       "filename": "sura-075.html",
-      "sha256": "1e1c4fc6022105451e4af46b3caeb4046d12e45780383cae984e79dfd77ae5ca",
-      "bytes": 4514,
+      "sha256": "23ef58acb1311b6301a7ebc8b5d5640e9c5eb115020c5468c0ad5b978a6596bb",
+      "bytes": 4602,
       "scopeGroup": "quran-sura",
       "sura": 75
     },
     {
       "filename": "sura-076.html",
-      "sha256": "32dee42206a7e7c358ff12e367e24a9303ab8bf91e79c5bbc8577ffaf2ed6705",
-      "bytes": 5052,
+      "sha256": "a050191febabde0cabcd8105dd312d78eeddd9898ffb776c210f0cd5bbfccf26",
+      "bytes": 5228,
       "scopeGroup": "quran-sura",
       "sura": 76
     },
     {
       "filename": "sura-077.html",
-      "sha256": "f9e6bc08aafebea162eb0de940c5fe4e9b77a60afa512379439272207536141f",
-      "bytes": 5173,
+      "sha256": "05108a3b7597384a9cf803f349332ce051427509d66ee757ae93eb131b943ab7",
+      "bytes": 5261,
       "scopeGroup": "quran-sura",
       "sura": 77
     },
     {
       "filename": "sura-078.html",
-      "sha256": "a7c51096133a8657e17cd95670e952b0702dfb828bb44762094b25ee717f1491",
-      "bytes": 4547,
+      "sha256": "bab88e68648192100d825ca4c5928595b244375fd453dbf940da72f475b14e54",
+      "bytes": 4635,
       "scopeGroup": "quran-sura",
       "sura": 78
     },
     {
       "filename": "sura-079.html",
-      "sha256": "d32acce53d26f86c40491787989e3bf4ff42893854bd617503e20d639b28af4d",
-      "bytes": 5112,
+      "sha256": "413d9373ae8eabe3768f3999a0dc612eb64894b094e4af5686e5c47e561f7af8",
+      "bytes": 5200,
       "scopeGroup": "quran-sura",
       "sura": 79
     },
     {
       "filename": "sura-080.html",
-      "sha256": "2e18c7f772c5217838322ac6a8eedcf3db78804eee028fc1df8e223f248e88b6",
-      "bytes": 4199,
+      "sha256": "06ff77edf2283d916cb3cd3d33df7443b3482546f37bc88f25c8ef2f55907bdc",
+      "bytes": 4287,
       "scopeGroup": "quran-sura",
       "sura": 80
     },
     {
       "filename": "sura-081.html",
-      "sha256": "ab4fa2bd886eb4823f90a8752a2494182f33b9a756dd852118cad24e33c91b1c",
-      "bytes": 3896,
+      "sha256": "423e02d0efa85524f525cfc99e7e6abbe954eabde9ceaeb559053744805bcf9f",
+      "bytes": 3984,
       "scopeGroup": "quran-sura",
       "sura": 81
     },
@@ -624,15 +624,15 @@
     },
     {
       "filename": "sura-083.html",
-      "sha256": "d1d6ca99caa967a45513d66b94d60e881e24dc62d6a0fd02f5eabac35a737c04",
-      "bytes": 4427,
+      "sha256": "fe09955467fc8e0fdf0ef7141c12ab5dbfdba2417a16c9d9c2f8a14cd983caa7",
+      "bytes": 4515,
       "scopeGroup": "quran-sura",
       "sura": 83
     },
     {
       "filename": "sura-084.html",
-      "sha256": "225b7b7219e1641a2f0ec8ce4b865e5c2c4f52e1084bd8c0f5fc6abca8582fb5",
-      "bytes": 3401,
+      "sha256": "a00a8e2f3862f48e31dc2be02a61f24fba231f88be6021a0a1578e5d7dc7ab2c",
+      "bytes": 3489,
       "scopeGroup": "quran-sura",
       "sura": 84
     },
@@ -645,8 +645,8 @@
     },
     {
       "filename": "sura-086.html",
-      "sha256": "6abf38b5ab5d7d72c227b86ad2e628341bcb5a065b9126bcc847afbe7f367997",
-      "bytes": 2632,
+      "sha256": "389dba2a2e2121a065ec4a60bf8fc0117aced1b7c2809bd996ddf18c0d1946c6",
+      "bytes": 2720,
       "scopeGroup": "quran-sura",
       "sura": 86
     },
@@ -659,15 +659,15 @@
     },
     {
       "filename": "sura-088.html",
-      "sha256": "aa729aa2b481c192dfbd0d838963080a1891a2b24c95f77efa98ff91bf022e00",
-      "bytes": 3270,
+      "sha256": "7ea316673127d905d438fd1078acf1e3bc8086603a9c6fe3e9a5a27159035836",
+      "bytes": 3358,
       "scopeGroup": "quran-sura",
       "sura": 88
     },
     {
       "filename": "sura-089.html",
-      "sha256": "6c592232feb92e4011232d1d90365ffa9dd1bd436417a5f66a28bcae7a269f35",
-      "bytes": 4127,
+      "sha256": "86a55920e60f172153b8fafcc6892ea79f9f6c3d812a2253186112d8596b2a9a",
+      "bytes": 4215,
       "scopeGroup": "quran-sura",
       "sura": 89
     },
@@ -680,8 +680,8 @@
     },
     {
       "filename": "sura-091.html",
-      "sha256": "4c68e1ed3657c5c386fdec838f556654c8c025a8f379fa447f5a4ab57c59335c",
-      "bytes": 2616,
+      "sha256": "943161073c874c53bced684bb5ccd68a79f0cd0dba9bcd8edcd2041e9d3703df",
+      "bytes": 2704,
       "scopeGroup": "quran-sura",
       "sura": 91
     },
@@ -694,8 +694,8 @@
     },
     {
       "filename": "sura-093.html",
-      "sha256": "d0b4ca7499226a4e020a2ba3fe919a9502872b9a9e2f2d605601c3db1447aeb8",
-      "bytes": 2382,
+      "sha256": "0227ea6e10a155e35503d0af6dad58a93f9588ee321331fc3a8961859d829d18",
+      "bytes": 2470,
       "scopeGroup": "quran-sura",
       "sura": 93
     },
@@ -715,8 +715,8 @@
     },
     {
       "filename": "sura-096.html",
-      "sha256": "693f9abbd6b3b6edf02704be126fba94536d507a4a008f984b699b5a97b1309f",
-      "bytes": 3048,
+      "sha256": "749fba0942699fff3e9fa4103860a225e5a34473e41543efaf89be30badd9691",
+      "bytes": 3136,
       "scopeGroup": "quran-sura",
       "sura": 96
     },
@@ -729,8 +729,8 @@
     },
     {
       "filename": "sura-098.html",
-      "sha256": "b18ae0774c06524b11e4bda2d28cc91d9593d207abb5c74ec1f3dc4b61c86e1a",
-      "bytes": 3017,
+      "sha256": "bd7d55c5f9140224f79b3c0beac432a0be763cff7697e47c740f55e63c6a58f3",
+      "bytes": 3098,
       "scopeGroup": "quran-sura",
       "sura": 98
     },
@@ -757,8 +757,8 @@
     },
     {
       "filename": "sura-102.html",
-      "sha256": "d953a2347b88dfdd1a758fc50f100bf036ac293fe1ed6ffc7f2135455899ecb4",
-      "bytes": 2126,
+      "sha256": "14a24c9bc702bfea34b4a32ca6a6ec153e3c4334e05e42173dbc5014c60d7dc7",
+      "bytes": 2214,
       "scopeGroup": "quran-sura",
       "sura": 102
     },
@@ -792,8 +792,8 @@
     },
     {
       "filename": "sura-107.html",
-      "sha256": "2af655784a25817b2bb8be4b03173795c5a3c9d83b93e43aad6be15e6a3beaa2",
-      "bytes": 2048,
+      "sha256": "b6f06fa9c505f51d2080445d14fda8b0b65c9d253fffdaa32a09f1748295d7b7",
+      "bytes": 2136,
       "scopeGroup": "quran-sura",
       "sura": 107
     },
@@ -820,8 +820,8 @@
     },
     {
       "filename": "sura-111.html",
-      "sha256": "fb6c7eff8ba1b20b859bf60104fe02637d5e537fafab7be68043dbbf07b89cdf",
-      "bytes": 2244,
+      "sha256": "7b7ebde47577543b2f2d118dc62a6b42adb871011ce3ece185d8b3b2000bd85b",
+      "bytes": 2332,
       "scopeGroup": "quran-sura",
       "sura": 111
     },
@@ -841,8 +841,8 @@
     },
     {
       "filename": "sura-114.html",
-      "sha256": "6f5394483635ebe3a43da504c3dc6a30b0d996db1aab7186b75d0843ef4229b1",
-      "bytes": 2373,
+      "sha256": "49650427da9bb6f5d5bd519b40abbd54dbf3d77b7d7e8542837a55ef8dcd533a",
+      "bytes": 2454,
       "scopeGroup": "quran-sura",
       "sura": 114
     },
@@ -1121,5 +1121,10 @@
     "packageBSuraFilesModified": 93,
     "sura001Unchanged": true,
     "note": "Only quran-sura hashes refreshed for Package B. Front-matter/list and appendix-body entries preserved as previously recorded."
+  },
+  "packageCReseal": {
+    "status": "PASS",
+    "type": "AUTHORIZED WEBSITE PRESENTATION CLARIFICATION",
+    "note": "Sura hashes refreshed to Package C present state; non-Sura locked hashes preserved unchanged in this reseal."
   }
 }

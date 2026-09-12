@@ -315,3 +315,60 @@ All **114** present-state Sura SHA-256 values were recalculated from the working
 > **Markers:** 372/372 page-level (371 new + preserved p.24)
 
 Praise be to God Alone.
+
+---
+
+## Post-Seal Clarification — Cumulative GOD Statistics Presentation Package C
+
+**Status:** PASS  
+**Type:** AUTHORIZED WEBSITE PRESENTATION CLARIFICATION  
+**Parent HEAD:** `d269098d811e1789db4d0e99611e5e066ab6f15f`  
+**Recorded:** 2026-09-12T23:48:50.607Z
+
+### Purpose
+
+Package B restored the canonical **page-level cumulative GOD statistics** (values and page-boundary locations). Except for Sura 1 / PDF p.24, those restored markers initially displayed **values only**.
+
+**Package C** adds Sura-1-style explanatory labels and subtle horizontal page-break separators to every existing Package B cumulative page-boundary pair so readers can understand the two numbers.
+
+### Canonical vs website presentation
+
+| Class | Content |
+|-------|---------|
+| **CANONICAL (unchanged)** | Cumulative numeric values; page-boundary locations; Sura 1 printed label wording; p.395 explanatory note; Quran verses, headings, footnotes |
+| **WEBSITE PRESENTATION CLARIFICATION** | Repeated labels `Cumulative frequency of the word GOD=` and `Cumulative sum of verses where GOD occurs=` plus Sura-1-style `<hr>` separators on the other existing markers |
+
+The repeated labels are **not** documented as though they were printed beside every cumulative pair in the canonical AEV PDF.
+
+### Accounting
+
+| Item | Value |
+|------|-------|
+| Total page-boundary pairs | **372** (unchanged from Package B) |
+| Labeled pairs | **372/372** |
+| Separators | **372/372** |
+| Package B values/placements | **372/372 exact** |
+| Sura HTML files modified for presentation | **93** |
+| `sura-001.html` | **Unchanged** (`cfea2453dfa267c2dd6c5599e50a96cc434d2b976b287c5631f885406b5618cc`) |
+| Finals | `2698*` / `118123*` + p.395 note unchanged |
+
+### Verification (Package C)
+
+| Check | Result |
+|-------|--------|
+| Package C verdict | **PASS** |
+| Package B values/placements | **372/372** exact |
+| Quran canonical units (strip authorized presentation chrome) | **114/114 MATCH** |
+| Broken internal links | **0** |
+| Appendix TOC / bodies | **38/38 MATCH** (unchanged) |
+| Protected front-matter scopes | **Unchanged / PASS** |
+
+### Hash refresh
+
+All **114** present-state Sura SHA-256 values were recalculated from the working-tree files and written to `sura-file-hashes.json`. This refresh records the Package C presentation chrome; it does **not** imply wording changes to verses, headings, or footnotes, and it does **not** change Package B cumulative values or placements.
+
+> **POST-SEAL CLARIFICATION — CUMULATIVE GOD STATISTICS PRESENTATION PACKAGE C — PASS**  
+> **Parent HEAD:** `d269098d811e1789db4d0e99611e5e066ab6f15f`  
+> **Markers:** 372/372 labeled + separator; values/placements unchanged from Package B
+
+Praise be to God Alone.

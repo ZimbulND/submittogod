@@ -1,7 +1,7 @@
 {
   "recordType": "aev-canonical-fidelity-baseline",
   "recordVersion": "1.0.0",
-  "generatedAt": "2026-09-12T21:46:34.976Z",
+  "generatedAt": "2026-09-12T23:48:50.607Z",
   "certification": {
     "statement": "AEV Website Canonical Fidelity — COMPLETE (intended scopes)",
     "genuineCanonicalDiscrepanciesRemainingWithinCertifiedScope": 0,
@@ -14,8 +14,8 @@
   "repository": {
     "path": "C:/Users/Owner/OneDrive/Documents/GitHub/submittogod",
     "branch": "main",
-    "headSha": "2c95021501972889972706d58fc30e2a78b89ef8",
-    "originMainSha": "2c95021501972889972706d58fc30e2a78b89ef8",
+    "headSha": "d269098d811e1789db4d0e99611e5e066ab6f15f",
+    "originMainSha": "d269098d811e1789db4d0e99611e5e066ab6f15f",
     "aheadBehind": {
       "ahead": 0,
       "behind": 0
@@ -24,7 +24,8 @@
     "workingTreeAtRecordCreation": "?? sources/ (and this new untracked audit/aev-canonical-fidelity/ package prior to commit)",
     "gitStatusPorcelainExpectedBeforePackage": "?? sources/",
     "workingTreeAtPackageBReseal": "93 Package B Sura HTML modifications + 6 audit/completion reseal records uncommitted; ?? sources/",
-    "note": "Parent HEAD remains Package A checkpoint 2c95021 until Package B + reseal are committed."
+    "note": "HEAD remains d269098 until Package C presentation + reseal are committed.",
+    "workingTreeAtPackageCReseal": "93 Package C Sura HTML modifications + 6 audit/completion reseal records uncommitted; ?? sources/"
   },
   "canonicalPdf": {
     "path": "sources/authorized-english-version/authorized-english-version.pdf",
@@ -41,9 +42,9 @@
   "manifests": {
     "quran": {
       "result": "114/114 MATCH",
-      "status": "locked-after-package-b-reseal",
+      "status": "locked-after-package-c-reseal",
       "package": "audit/quran-verification/",
-      "note": "Sura file hashes refreshed to Package B present state; verse/heading/footnote wording unchanged"
+      "note": "Sura file hashes refreshed to Package C present state; verse/heading/footnote wording unchanged; Package B values/placements unchanged"
     },
     "appendixBodies": {
       "result": "38/38 MATCH",
@@ -76,10 +77,11 @@
     {
       "id": "quran-suras",
       "label": "Quran Suras 1–114",
-      "status": "114/114 MATCH / locked-after-package-b-reseal",
+      "status": "114/114 MATCH / locked-after-package-c-reseal",
       "primaryFilesGlob": "sura-001.html … sura-114.html",
       "manifestPackage": "audit/quran-verification/",
-      "packageB": "Cumulative GOD page statistics restored (372/372 page markers); wording unchanged"
+      "packageB": "Cumulative GOD page statistics restored (372/372 page markers); wording unchanged",
+      "packageC": "Cumulative GOD statistics presentation labels + separators (372/372); wording and Package B values/placements unchanged"
     },
     {
       "id": "quran-chapters-list",
@@ -195,6 +197,49 @@
     },
     "verification": {
       "packageB": "PASS",
+      "quranCanonicalUnits": "114/114 MATCH",
+      "brokenInternalLinks": 0,
+      "appendixToc": "38/38 MATCH",
+      "appendixBodies": "38/38 MATCH",
+      "protectedScopesUnchanged": true
+    }
+  },
+  "postSealClarificationPackageC": {
+    "id": "cumulative-god-statistics-presentation-package-c",
+    "status": "PASS",
+    "type": "AUTHORIZED WEBSITE PRESENTATION CLARIFICATION",
+    "parentHead": "d269098d811e1789db4d0e99611e5e066ab6f15f",
+    "summary": "Added Sura-1-style explanatory labels and subtle horizontal separators to every existing Package B cumulative page-boundary pair without changing canonical values or placements.",
+    "distinction": {
+      "canonical": [
+        "cumulative numeric values",
+        "page-boundary locations",
+        "Sura 1 printed label wording",
+        "p.395 explanatory note",
+        "Quran verses, headings, footnotes"
+      ],
+      "websitePresentationOnly": [
+        "Repeated labels Cumulative frequency of the word GOD=",
+        "Repeated labels Cumulative sum of verses where GOD occurs=",
+        "Sura-1-style subtle horizontal separators"
+      ],
+      "notClaimedAsPdfPrinting": "Repeated explanatory labels are website presentation clarification only."
+    },
+    "accounting": {
+      "totalMarkers": 372,
+      "labels": "372/372",
+      "separators": "372/372",
+      "packageBValuesPlacements": "372/372 exact",
+      "suraFilesModified": 93,
+      "sura001Unchanged": true,
+      "sura001Sha256": "cfea2453dfa267c2dd6c5599e50a96cc434d2b976b287c5631f885406b5618cc",
+      "finals": [
+        "2698*",
+        "118123*"
+      ]
+    },
+    "verification": {
+      "packageC": "PASS",
       "quranCanonicalUnits": "114/114 MATCH",
       "brokenInternalLinks": 0,
       "appendixToc": "38/38 MATCH",

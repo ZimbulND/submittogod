@@ -1,7 +1,7 @@
 {
   "recordType": "aev-canonical-fidelity-evidence-index",
   "recordVersion": "1.0.0",
-  "generatedAt": "2026-09-12T21:46:34.976Z",
+  "generatedAt": "2026-09-12T23:48:50.607Z",
   "purpose": "Map each certified intended AEV website canonical-content scope to its strongest durable evidence, with accurate evidence-class limits.",
   "evidenceClasses": {
     "REPOSITORY_VERIFIABLE": "Independently confirmable from the Git repository / working tree without relying on missing TEMP files",
@@ -11,7 +11,7 @@
     "DETERMINISTIC_PRESENT_STATE_RECONCILIATION": "Repeatable present-state comparison against AEV PDF controlling boundaries",
     "ACCEPTED_READ_ONLY_SCOPE_DETERMINATION": "Authorized read-only project determination (not a page-level content audit)"
   },
-  "checkpointHead": "2c95021501972889972706d58fc30e2a78b89ef8",
+  "checkpointHead": "d269098d811e1789db4d0e99611e5e066ab6f15f",
   "scopes": [
     {
       "id": "proclaiming",
@@ -64,7 +64,7 @@
     {
       "id": "quran-suras",
       "label": "Quran Suras 1–114",
-      "status": "114/114 MATCH / locked-after-package-b-reseal",
+      "status": "114/114 MATCH / locked-after-package-c-reseal",
       "strongestEvidence": [
         {
           "class": "EXISTING_PERMANENT_QURAN_PACKAGE",
@@ -84,6 +84,10 @@
         {
           "class": "COMMITTED_CORRECTION_HISTORY",
           "note": "Package B (Cumulative GOD page statistics) post-seal correction verified PASS; Sura wording unchanged; hashes refreshed in sura-file-hashes.json"
+        },
+        {
+          "class": "AUTHORIZED_PRESENTATION_CLARIFICATION",
+          "note": "Package C (Cumulative GOD statistics presentation) verified PASS; labels/separators added; Sura wording and Package B values/placements unchanged; hashes refreshed in sura-file-hashes.json"
         }
       ],
       "evidenceLimits": [
@@ -251,6 +255,36 @@
         "Does not rewrite Quran verse/heading/footnote wording",
         "Statistics are page-level cumulative values, not Sura-level totals",
         "TEMP page-insertion-map.json is planning/implementation evidence, not a permanent repository dependency"
+      ]
+    },
+    {
+      "id": "cumulative-god-statistics-presentation-package-c",
+      "status": "PASS",
+      "type": "AUTHORIZED WEBSITE PRESENTATION CLARIFICATION",
+      "parentHead": "d269098d811e1789db4d0e99611e5e066ab6f15f",
+      "recordedAt": "2026-09-12T23:48:50.607Z",
+      "summary": "Added Sura-1-style explanatory labels and subtle horizontal separators to all 372 existing Package B cumulative page-boundary pairs (93 Sura files; Sura 1 unchanged). Values and placements unchanged.",
+      "evidence": [
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "audit/quran-verification/sura-file-hashes.json",
+          "role": "Refreshed 114/114 present-state Sura SHA-256 manifest after Package C"
+        },
+        {
+          "class": "REPOSITORY_VERIFIABLE",
+          "artifact": "closed-scope-hashes.json",
+          "role": "Umbrella inventory with Package C Sura hashes refreshed"
+        },
+        {
+          "class": "DETERMINISTIC_PRESENT_STATE_RECONCILIATION",
+          "controllingSource": "Existing Package B page-boundary markers + Sura 1 presentation model (labels + subtle hr)",
+          "result": "PACKAGE C — PASS; labels 372/372; separators 372/372; Package B values/placements 372/372; Quran canonical units 114/114 MATCH"
+        }
+      ],
+      "limits": [
+        "Does not rewrite Quran verse/heading/footnote wording",
+        "Does not change Package B cumulative values or page-boundary locations",
+        "Repeated explanatory labels are website presentation clarification only; not asserted as printed beside every pair in the AEV PDF"
       ]
     }
   ]
