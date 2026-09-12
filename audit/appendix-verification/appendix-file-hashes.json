@@ -1,0 +1,276 @@
+{
+  "generatedAt": "2026-09-12T13:18:09.350Z",
+  "repository": {
+    "headSha": "aa6f55fd4bc1fd05dcab3e6e48c26502b3732406",
+    "branch": "main"
+  },
+  "fileCount": 38,
+  "files": [
+    {
+      "appendix": 1,
+      "filename": "appendix-001.html",
+      "title": "One of the Great Miracles [74:35]",
+      "sha256": "7a0a7f05298c8d2fb40c9caebe1d42a7f4bdfae280412712869d0bf8e257c2c9",
+      "bytes": 77567
+    },
+    {
+      "appendix": 2,
+      "filename": "appendix-002.html",
+      "title": "God’s Messenger of the Covenant",
+      "sha256": "b28682ee7f25b813c9c55c2a880554acf728936c9071f9463ed3595c82c761db",
+      "bytes": 35113
+    },
+    {
+      "appendix": 3,
+      "filename": "appendix-003.html",
+      "title": "We Made the Quran Easy [54:17]",
+      "sha256": "fbe0f18dd4156401c020fc6a222f08011d64c2ad638f33e8b63992ef976e2b22",
+      "bytes": 7527
+    },
+    {
+      "appendix": 4,
+      "filename": "appendix-004.html",
+      "title": "Why Was the Quran Revealed in Arabic?",
+      "sha256": "d1c8675fcc748d55662d7639cb5809369be6322102681a4b2c982242bed94e85",
+      "bytes": 5219
+    },
+    {
+      "appendix": 5,
+      "filename": "appendix-005.html",
+      "title": "Heaven and Hell",
+      "sha256": "6488398119572b730fe300237035216d6503cbd2318b936f1d42bd8f3083713a",
+      "bytes": 6225
+    },
+    {
+      "appendix": 6,
+      "filename": "appendix-006.html",
+      "title": "Greatness of God",
+      "sha256": "31971280c2849fea03ce1f1629e1ea6f3d4a6a835283d7501f71b8a99c58d5d2",
+      "bytes": 6214
+    },
+    {
+      "appendix": 7,
+      "filename": "appendix-007.html",
+      "title": "Why Were We Created ?",
+      "sha256": "656a8b5359024277b4c3e597b9ad1a25df79cb028244725e0aa09bba99dd28d5",
+      "bytes": 11362
+    },
+    {
+      "appendix": 8,
+      "filename": "appendix-008.html",
+      "title": "The Myth of Intercession",
+      "sha256": "355347ee4edcf540b56335d38832e59515bbd05a55733bb1a2c60066d6183b1e",
+      "bytes": 5322
+    },
+    {
+      "appendix": 9,
+      "filename": "appendix-009.html",
+      "title": "Abraham: Original Messenger of Islam",
+      "sha256": "09d4b8bcc8840c94d5a6e0b76d6fbe06d5398bfab7e55643011013835062f42c",
+      "bytes": 6530
+    },
+    {
+      "appendix": 10,
+      "filename": "appendix-010.html",
+      "title": "God’s Usage of the Plural Tense",
+      "sha256": "09400fc5629791265459034be7d01867892a815d09793c717d40c3523648cdc0",
+      "bytes": 4754
+    },
+    {
+      "appendix": 11,
+      "filename": "appendix-011.html",
+      "title": "The Day of Resurrection",
+      "sha256": "5b134aecc8916bc100571096d946aa76adbd948ee88bfa5495426054f60d8736",
+      "bytes": 5870
+    },
+    {
+      "appendix": 12,
+      "filename": "appendix-012.html",
+      "title": "Role of the Prophet Muhammad",
+      "sha256": "2752d2c04bba4595d1f780f31446aba5b899b51faf8fc9d4ad16ad6e21e5d17a",
+      "bytes": 5979
+    },
+    {
+      "appendix": 13,
+      "filename": "appendix-013.html",
+      "title": "The First Pillar of Islam (Submission): “Laa Elaaha Ellaa Allah” (No god except God)",
+      "sha256": "ed92253f91301e0b327736e29b0ead9b9a86b69670ac481fac0bde16ea7be38d",
+      "bytes": 6603
+    },
+    {
+      "appendix": 14,
+      "filename": "appendix-014.html",
+      "title": "Predestination",
+      "sha256": "7a01f73390fb6bcc0ca93e0716b3b48990035690da386bb9a4e0c85bba620d0c",
+      "bytes": 5434
+    },
+    {
+      "appendix": 15,
+      "filename": "appendix-015.html",
+      "title": "Religious Duties: A Gift From God",
+      "sha256": "8877e7a1856b7fbf826602561498cb3ac981696da5c415f85fc6c023bc69eb72",
+      "bytes": 23252
+    },
+    {
+      "appendix": 16,
+      "filename": "appendix-016.html",
+      "title": "Dietary Prohibitions",
+      "sha256": "cce5c541c5c48f6e6e8dbb1856ec9e18d9376c1d02c71ef26b42ce995ab0b5b6",
+      "bytes": 4582
+    },
+    {
+      "appendix": 17,
+      "filename": "appendix-017.html",
+      "title": "Death",
+      "sha256": "e2e35dd7f960ada13ed50c00721d21c4681f90acae1760d1c674de704b128944",
+      "bytes": 8175
+    },
+    {
+      "appendix": 18,
+      "filename": "appendix-018.html",
+      "title": "Quran: All You Need For Salvation",
+      "sha256": "439dd10a90bce76d33fd2df00f0cbce32b27efe739a16b0f7ae2177e9c5960d4",
+      "bytes": 4343
+    },
+    {
+      "appendix": 19,
+      "filename": "appendix-019.html",
+      "title": "Hadith & Sunna: Satanic Innovations",
+      "sha256": "bf08cc48fddb23577b805064dc9c5fc701eb52ba40c50208f4943b4c860f0de6",
+      "bytes": 6235
+    },
+    {
+      "appendix": 20,
+      "filename": "appendix-020.html",
+      "title": "Quran: Unlike Any Other Book",
+      "sha256": "974086edfea6024fe9045d51cf0f07857987cf036fb976fcf24718688eba8b84",
+      "bytes": 4396
+    },
+    {
+      "appendix": 21,
+      "filename": "appendix-021.html",
+      "title": "Satan: Fallen Angel",
+      "sha256": "cf1bcf37fd048e60333f9f5e9ed2a7600ca7fe8863439cce8d77d6a529b1753f",
+      "bytes": 3606
+    },
+    {
+      "appendix": 22,
+      "filename": "appendix-022.html",
+      "title": "Jesus",
+      "sha256": "68183bfe14573e9590926c026a1f1b0216d99192173a26de80838cecd7581c99",
+      "bytes": 12144
+    },
+    {
+      "appendix": 23,
+      "filename": "appendix-023.html",
+      "title": "Chronological Sequence of Revelation",
+      "sha256": "baeaa8c658003ddaf5ec0c51453e87552a538630e98c509a0a7815e32e5347bd",
+      "bytes": 6758
+    },
+    {
+      "appendix": 24,
+      "filename": "appendix-024.html",
+      "title": "Tampering With the Word of God",
+      "sha256": "9086fde557f1651b2394074b3af7f9edcdbc9b9ce289c15174266bc64b2dd856",
+      "bytes": 109201
+    },
+    {
+      "appendix": 25,
+      "filename": "appendix-025.html",
+      "title": "End Of The World",
+      "sha256": "98dd81179725b0df8c4ea7b9d2c0db587faa9c6e88f3beea6bc0a3408ad5e362",
+      "bytes": 11662
+    },
+    {
+      "appendix": 26,
+      "filename": "appendix-026.html",
+      "title": "The Three Messengers of Islam",
+      "sha256": "a8d52c7352584ca860e91ae969e322d8e4e3d063554abd882981f31ed49cd5b4",
+      "bytes": 18051
+    },
+    {
+      "appendix": 27,
+      "filename": "appendix-027.html",
+      "title": "Who Is Your God?",
+      "sha256": "00dd7ed43a9a2aa6a27a027cb4487019d7331ac0ba4e1cba51c07565759a2453",
+      "bytes": 6692
+    },
+    {
+      "appendix": 28,
+      "filename": "appendix-028.html",
+      "title": "Muhammad Wrote God’s Revelations With His Own Hand",
+      "sha256": "a1a5551cd8cfd14138d4d8aa085198a9b499825f7ec21dd725e3f0f2b76b4d99",
+      "bytes": 5904
+    },
+    {
+      "appendix": 29,
+      "filename": "appendix-029.html",
+      "title": "The Missing Basmalah",
+      "sha256": "11da02c8331b36815ab348c3b67b7f4629c65005a65cbf5c3c3a1005a86c3499",
+      "bytes": 14682
+    },
+    {
+      "appendix": 30,
+      "filename": "appendix-030.html",
+      "title": "Polygamy",
+      "sha256": "e71e76f9db9a5e039e14be963ce9786214a3e61642a027208c80e8f304b20e7c",
+      "bytes": 7435
+    },
+    {
+      "appendix": 31,
+      "filename": "appendix-031.html",
+      "title": "Evolution: Divinely Controlled",
+      "sha256": "7995c0589ee1d989e6c8f30c87ab1a271f4e7bcd64ecb39c4921a761b6ef6d43",
+      "bytes": 6909
+    },
+    {
+      "appendix": 32,
+      "filename": "appendix-032.html",
+      "title": "The Crucial Age of 40",
+      "sha256": "277ba2b910962bd1f39c7d39f566d41ff1452850ba8f3952a3a99c8a8d6b67cf",
+      "bytes": 6661
+    },
+    {
+      "appendix": 33,
+      "filename": "appendix-033.html",
+      "title": "Why Did God Send A Messenger Now?",
+      "sha256": "347e07c49afa0f4483ec10e77e03de9d994f8240e96fbe71403219ef00ed2240",
+      "bytes": 11109
+    },
+    {
+      "appendix": 34,
+      "filename": "appendix-034.html",
+      "title": "Virginity",
+      "sha256": "67dbce922c24f31b44be17016078c2ee21ee6a6ae60b7b39d29a4dd7c26a8200",
+      "bytes": 5665
+    },
+    {
+      "appendix": 35,
+      "filename": "appendix-035.html",
+      "title": "Drugs & Alcohol",
+      "sha256": "7df33d782d90d44cc448f93af91946eb89a9e016d8b291a25ae1940edff59488",
+      "bytes": 4232
+    },
+    {
+      "appendix": 36,
+      "filename": "appendix-036.html",
+      "title": "What Price A Great Nation",
+      "sha256": "3b9d8e9e1b12bd9db9963da00381e60ff97fe5f98e34797cd9bd30f542469433",
+      "bytes": 6653
+    },
+    {
+      "appendix": 37,
+      "filename": "appendix-037.html",
+      "title": "Criminal Justice",
+      "sha256": "e5859b45eee9720c13562748c44684b94e4e019c2fbd77fb8743cbd86923c5ad",
+      "bytes": 6862
+    },
+    {
+      "appendix": 38,
+      "filename": "appendix-038.html",
+      "title": "19: The Creator’s Signature",
+      "sha256": "d7e413cb7fdb107e3a9a7413c830353f69c6bcf46769bb0b63627d91f36a66c3",
+      "bytes": 5052
+    }
+  ]
+}

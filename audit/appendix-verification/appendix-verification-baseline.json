@@ -1,0 +1,309 @@
+{
+  "recordType": "appendix-canonical-fidelity-baseline",
+  "recordVersion": "1.0.0",
+  "generatedAt": "2026-09-12T13:19:05.425Z",
+  "status": "COMPLETE_WITH_EVIDENCE_LIMITATIONS",
+  "conclusion": {
+    "statement": "APPENDIX CANONICAL FIDELITY VERIFICATION — HISTORICALLY CLOSED; PERMANENT PRESENT-STATE RECORD ESTABLISHED",
+    "allAppendicesPublished": "ALL 38 APPENDICES PUBLISHED",
+    "allAppendicesReportedClosedInSession": "ALL 38 APPENDICES REPORTED CLOSED (A1–A4)",
+    "temporaryPhaseArtifactsDurableInRepo": false,
+    "unfixedAppendixCorrectionsInGitHistory": 0
+  },
+  "evidenceClasses": {
+    "REPOSITORY_VERIFIABLE": "Independently confirmable from current Git repository / working tree without relying on missing TEMP files",
+    "HISTORICAL_SESSION_REPORTED": "Reported outcomes of prior accepted A1–A4 verification workflow; not re-proven by this package from surviving TEMP artifacts",
+    "TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE": "Former %TEMP% fidelity-appendix-a* working artifacts; directories may exist but currently contain 0 files and are NOT durable evidence"
+  },
+  "appendices": {
+    "first": 1,
+    "last": 38,
+    "count": 38
+  },
+  "repository": {
+    "path": "C:/Users/Owner/OneDrive/Documents/GitHub/submittogod",
+    "branch": "main",
+    "headSha": "aa6f55fd4bc1fd05dcab3e6e48c26502b3732406",
+    "synchronizedWithOrigin": true,
+    "headCommitMessage": "Remove duplicate Appendix 1 Tashkent caption",
+    "workingTreeAtRecordCreation": "?? sources/ and new untracked audit/appendix-verification/ package (pre-commit)"
+  },
+  "canonicalPdf": {
+    "path": "sources/authorized-english-version/authorized-english-version.pdf",
+    "sha256": "40792b2d9b2464747d4e3cf83f72165197b277a0b6691e6e058277e7eda78055",
+    "bytes": 7247548,
+    "pageCount": 560,
+    "evidenceClass": "REPOSITORY_VERIFIABLE",
+    "notes": "PDF present on disk as untracked sources/ tree; hash recomputed at record creation."
+  },
+  "publication": {
+    "evidenceClass": "REPOSITORY_VERIFIABLE",
+    "complete": true,
+    "commits": [
+      {
+        "sha": "255bb32a76f81e1f8940e7955a14cedc7426e3eb",
+        "message": "Publish Appendix 1",
+        "appendices": [
+          1
+        ]
+      },
+      {
+        "sha": "05777303d1e991e69d94c7f707330e5479d83bc8",
+        "message": "Publish Appendix 2",
+        "appendices": [
+          2
+        ]
+      },
+      {
+        "sha": "6581d4abf13648bb38e066854a3a931838e5af6b",
+        "message": "Publish Appendix 3",
+        "appendices": [
+          3
+        ]
+      },
+      {
+        "sha": "2fa5fc94052db9cef3e42f7cd5d36615dbf2694f",
+        "message": "Publish Appendix 4",
+        "appendices": [
+          4
+        ]
+      },
+      {
+        "sha": "9039c1abdc76eac1c95b7f9bd34200a8d42d044b",
+        "message": "Publish Appendix 5",
+        "appendices": [
+          5
+        ]
+      },
+      {
+        "sha": "9529871f58fd114f5978e064763bc3df630461cf",
+        "message": "Publish Appendix 6",
+        "appendices": [
+          6
+        ]
+      },
+      {
+        "sha": "b60b0a88790e103f6536b67498816103b1de7a0e",
+        "message": "Publish Appendix 7",
+        "appendices": [
+          7
+        ]
+      },
+      {
+        "sha": "dfc94c53f72ca105509e1f842e2c9be25d9f2495",
+        "message": "Publish Appendix 8",
+        "appendices": [
+          8
+        ]
+      },
+      {
+        "sha": "331275bfc40a1fa9643db50cadee7c744ec9a83b",
+        "message": "Publish Appendix 9",
+        "appendices": [
+          9
+        ]
+      },
+      {
+        "sha": "84e0ac7337372cfab32bbe64fc756ac0f0026e5d",
+        "message": "Publish Appendix 10",
+        "appendices": [
+          10
+        ]
+      },
+      {
+        "sha": "6ed1171cebd42a7289c765e4c008fccdf640d3fb",
+        "message": "Publish Appendix 11",
+        "appendices": [
+          11
+        ]
+      },
+      {
+        "sha": "0bbdd040a644aad16f167d089a0d1f8e21d56378",
+        "message": "Publish Appendices 12–16",
+        "appendices": [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "sha": "e85b5d377f634f6e4bab53496f27c2ac31a1364e",
+        "message": "Publish Appendices 17–21",
+        "appendices": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      {
+        "sha": "4add64f588aefe68a61d1f65090b75bc225cc8d9",
+        "message": "Publish Appendices 22-26",
+        "appendices": [
+          22,
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      {
+        "sha": "310f3706806e67e188d1ed87fc90c3e126170950",
+        "message": "Publish Appendices 27-31",
+        "appendices": [
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "sha": "f2b2694d8df53ab6d0b0e295078ad71bf852251f",
+        "message": "Publish Appendices 32-38",
+        "appendices": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      }
+    ]
+  },
+  "correctionsIncorporated": [
+    {
+      "ref": "Appendix 1 caption/body bleed",
+      "sha": "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+      "message": "Correct Appendix 1 AEV caption bleed",
+      "evidenceClass": "REPOSITORY_VERIFIABLE",
+      "notes": "Git history shows this correction to appendix-001.html."
+    },
+    {
+      "ref": "Appendix 1 duplicate Tashkent caption",
+      "sha": "aa6f55fd4bc1fd05dcab3e6e48c26502b3732406",
+      "message": "Remove duplicate Appendix 1 Tashkent caption",
+      "evidenceClass": "REPOSITORY_VERIFIABLE",
+      "notes": "Current HEAD. Removes duplicate standalone Photocopy from the Tashkent Quran paragraph while retaining figcaption. Confirmed by git show --stat: appendix-001.html 1 deletion."
+    }
+  ],
+  "phases": [
+    {
+      "phase": "A1",
+      "scope": "Appendices 1–10",
+      "reportedStatus": "CLOSED — PASS",
+      "evidenceClass": "HISTORICAL_SESSION_REPORTED",
+      "source": "Prior agent verification session / accepted project checkpoint",
+      "temporaryArtifactsExpected": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a1\\\\",
+      "temporaryArtifactsPresentNow": false,
+      "relatedCorrections": [
+        "6d558bd2a78a767d973a60bb0a63e7afb2ee2542",
+        "aa6f55fd4bc1fd05dcab3e6e48c26502b3732406"
+      ],
+      "notes": "A1 reported one confirmed discrepancy (duplicate Tashkent caption) later corrected at aa6f55f. A1 correction also reported closed. Detailed per-unit TEMP reports are no longer present on disk."
+    },
+    {
+      "phase": "A2",
+      "scope": "Appendices 11–20",
+      "reportedStatus": "CLOSED — PASS",
+      "evidenceClass": "HISTORICAL_SESSION_REPORTED",
+      "source": "Prior agent verification session / accepted project checkpoint",
+      "temporaryArtifactsExpected": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a2\\\\",
+      "temporaryArtifactsPresentNow": false,
+      "reportedConfirmedDiscrepancies": 0,
+      "reportedUnresolvedCanonicalItems": 0,
+      "notes": "Session reported 0 confirmed website discrepancies and 0 unresolved canonical items. TEMP artifacts currently empty."
+    },
+    {
+      "phase": "A3",
+      "scope": "Appendices 21–30",
+      "reportedStatus": "CLOSED — PASS",
+      "evidenceClass": "HISTORICAL_SESSION_REPORTED",
+      "source": "Prior agent verification session / accepted project checkpoint",
+      "temporaryArtifactsExpected": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a3\\\\",
+      "temporaryArtifactsPresentNow": false,
+      "reportedConfirmedDiscrepancies": 0,
+      "reportedUnresolvedCanonicalItems": 0,
+      "notes": "Session reported 301/301 prose paragraphs matched among other closures. TEMP artifacts currently empty."
+    },
+    {
+      "phase": "A4",
+      "scope": "Appendices 31–38",
+      "reportedStatus": "CLOSED — PASS",
+      "evidenceClass": "HISTORICAL_SESSION_REPORTED",
+      "source": "Prior agent verification session / accepted project checkpoint",
+      "temporaryArtifactsExpected": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a4\\\\",
+      "temporaryArtifactsPresentNow": false,
+      "reportedConfirmedDiscrepancies": 0,
+      "reportedUnresolvedCanonicalItems": 0,
+      "notes": "Final Appendix audit phase. Session reported A4 CLOSED — PASS and ALL 38 APPENDICES CLOSED, with recommendation to create this permanent record. TEMP artifacts currently empty."
+    }
+  ],
+  "presentStateManifest": {
+    "path": "appendix-file-hashes.json",
+    "evidenceClass": "REPOSITORY_VERIFIABLE",
+    "fileCount": 38,
+    "headShaAtHashing": "aa6f55fd4bc1fd05dcab3e6e48c26502b3732406"
+  },
+  "relatedQuranPackage": {
+    "path": "audit/quran-verification/",
+    "note": "Quran verification is separately complete and locked. This Appendix package does not reopen or modify Quran certification."
+  },
+  "explicitExclusions": [
+    "Re-proof of A1–A4 unit-level residuals from surviving TEMP artifacts (artifacts absent)",
+    "Appendix TOC / appendices.html index fidelity as a separate certified scope",
+    "Front matter",
+    "Back matter / INDEX",
+    "Search functionality",
+    "Navigation completeness",
+    "General website functionality",
+    "Quran Suras 1–114 (separate package)",
+    "Future source changes"
+  ],
+  "futureInvalidationPolicy": {
+    "appendixHtmlFileChanged": "If an Appendix HTML SHA-256 no longer matches appendix-file-hashes.json, that Appendix present-state capture is stale; investigate before relying on this package for that file.",
+    "canonicalPdfChanged": "If canonical PDF SHA-256 changes, historical fidelity conclusions tied to the prior PDF identity require scoped re-evaluation.",
+    "temporaryArtifactsRecovered": "Recovery of former TEMP A1–A4 artifacts may strengthen historical provenance but does not by itself alter present-state hashes."
+  },
+  "validation": {
+    "appendixFileCount": 38,
+    "expectedAppendixCount": 38,
+    "appendices1to38Present": true,
+    "noMissing": true,
+    "pdfSha256Computed": true,
+    "headMatchesExpected": true,
+    "phasesRepresented": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "temporaryPhaseArtifactsPresent": false,
+    "packageDoesNotClaimDurableTempEvidence": true,
+    "appendixHtmlUnmodifiedByThisPackage": true,
+    "quranHtmlUnmodifiedByThisPackage": true
+  },
+  "temporaryEvidenceStatus": {
+    "checkedAt": "2026-09-12T13:19:05.425Z",
+    "rootsChecked": [
+      "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a1",
+      "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a1-correction",
+      "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a2",
+      "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a3",
+      "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a4"
+    ],
+    "fileCounts": {
+      "a1": 0,
+      "a1Correction": 0,
+      "a2": 0,
+      "a3": 0,
+      "a4": 0
+    },
+    "conclusion": "TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE"
+  }
+}

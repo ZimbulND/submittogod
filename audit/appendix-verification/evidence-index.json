@@ -1,0 +1,120 @@
+{
+  "generatedAt": "2026-09-12T13:19:05.425Z",
+  "purpose": "Evidence classification index for Appendix verification completion. Separates repository-verifiable facts from historical session-reported outcomes and unavailable TEMP artifacts.",
+  "evidenceClasses": {
+    "REPOSITORY_VERIFIABLE": "Independently confirmable from current Git repository / working tree without relying on missing TEMP files",
+    "HISTORICAL_SESSION_REPORTED": "Reported outcomes of prior accepted A1–A4 verification workflow; not re-proven by this package from surviving TEMP artifacts",
+    "TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE": "Former %TEMP% fidelity-appendix-a* working artifacts; directories may exist but currently contain 0 files and are NOT durable evidence"
+  },
+  "repositoryVerifiable": [
+    {
+      "item": "Current HEAD aa6f55f synchronized with origin/main",
+      "class": "REPOSITORY_VERIFIABLE"
+    },
+    {
+      "item": "Appendices 1–38 HTML files present and hashed in appendix-file-hashes.json",
+      "class": "REPOSITORY_VERIFIABLE"
+    },
+    {
+      "item": "Appendix publication commits 255bb32 … f2b2694",
+      "class": "REPOSITORY_VERIFIABLE"
+    },
+    {
+      "item": "Appendix 1 correction commits 6d558bd and aa6f55f",
+      "class": "REPOSITORY_VERIFIABLE"
+    },
+    {
+      "item": "Canonical PDF SHA-256 40792b2d…eda78055 (7,247,548 bytes) at sources/authorized-english-version/authorized-english-version.pdf",
+      "class": "REPOSITORY_VERIFIABLE"
+    },
+    {
+      "item": "Quran verification package exists separately under audit/quran-verification/",
+      "class": "REPOSITORY_VERIFIABLE"
+    }
+  ],
+  "historicalSessionReported": [
+    {
+      "item": "A1 CLOSED — PASS (Appendices 1–10)",
+      "class": "HISTORICAL_SESSION_REPORTED",
+      "note": "Accepted project checkpoint; TEMP reports absent"
+    },
+    {
+      "item": "A1 correction CLOSED — PASS",
+      "class": "HISTORICAL_SESSION_REPORTED",
+      "note": "Correction itself is also REPOSITORY_VERIFIABLE via aa6f55f"
+    },
+    {
+      "item": "A2 CLOSED — PASS (Appendices 11–20); 0 discrepancies; 0 unresolved",
+      "class": "HISTORICAL_SESSION_REPORTED"
+    },
+    {
+      "item": "A3 CLOSED — PASS (Appendices 21–30); 0 discrepancies; 0 unresolved",
+      "class": "HISTORICAL_SESSION_REPORTED"
+    },
+    {
+      "item": "A4 CLOSED — PASS (Appendices 31–38); 0 discrepancies; 0 unresolved",
+      "class": "HISTORICAL_SESSION_REPORTED"
+    },
+    {
+      "item": "ALL 38 APPENDICES CLOSED / APPENDIX CANONICAL FIDELITY VERIFICATION — COMPLETE (session conclusion)",
+      "class": "HISTORICAL_SESSION_REPORTED"
+    }
+  ],
+  "temporaryArtifactsNoLongerAvailable": [
+    {
+      "path": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a1",
+      "class": "TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE",
+      "filesPresent": 0
+    },
+    {
+      "path": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a1-correction",
+      "class": "TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE",
+      "filesPresent": 0
+    },
+    {
+      "path": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a2",
+      "class": "TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE",
+      "filesPresent": 0
+    },
+    {
+      "path": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a3",
+      "class": "TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE",
+      "filesPresent": 0
+    },
+    {
+      "path": "%TEMP%\\\\aev-pdf-extract\\\\fidelity-appendix-a4",
+      "class": "TEMPORARY_ARTIFACTS_NO_LONGER_AVAILABLE",
+      "filesPresent": 0
+    }
+  ],
+  "phases": [
+    {
+      "phase": "A1",
+      "scope": "Appendices 1–10",
+      "reportedStatus": "CLOSED — PASS",
+      "evidenceClass": "HISTORICAL_SESSION_REPORTED",
+      "temporaryArtifactsPresentNow": false
+    },
+    {
+      "phase": "A2",
+      "scope": "Appendices 11–20",
+      "reportedStatus": "CLOSED — PASS",
+      "evidenceClass": "HISTORICAL_SESSION_REPORTED",
+      "temporaryArtifactsPresentNow": false
+    },
+    {
+      "phase": "A3",
+      "scope": "Appendices 21–30",
+      "reportedStatus": "CLOSED — PASS",
+      "evidenceClass": "HISTORICAL_SESSION_REPORTED",
+      "temporaryArtifactsPresentNow": false
+    },
+    {
+      "phase": "A4",
+      "scope": "Appendices 31–38",
+      "reportedStatus": "CLOSED — PASS",
+      "evidenceClass": "HISTORICAL_SESSION_REPORTED",
+      "temporaryArtifactsPresentNow": false
+    }
+  ]
+}
