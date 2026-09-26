@@ -1,0 +1,78 @@
+/* UX Package 1 — reading progress chrome only. Does not alter AEV text. */
+
+.verse-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.verse-row > .verse {
+  margin-bottom: 0;
+  flex: 1;
+  min-width: 0;
+}
+
+.verse-marker {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  margin: -6px 0 0 -6px;
+  padding: 0;
+  border: 1px solid #999;
+  border-radius: 50%;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 14px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.verse-marker:hover,
+.verse-marker:focus-visible {
+  border-color: #0d3b66;
+  color: #0d3b66;
+  outline: 2px solid #0d3b66;
+  outline-offset: 2px;
+}
+
+.verse-marker[aria-pressed="true"] {
+  background: #0d3b66;
+  border-color: #0d3b66;
+  color: #fff;
+}
+
+.verse-row.is-saved .verse {
+  background: rgba(13, 59, 102, 0.06);
+}
+
+.continue-reading {
+  margin: 12px 0 18px;
+  font-family: Georgia, serif;
+}
+
+.continue-reading a {
+  color: #0d3b66;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.continue-reading a:hover,
+.continue-reading a:focus-visible {
+  text-decoration: underline;
+}
+
+/* Hub pages (Arial chrome) */
+.continue-reading-hub {
+  margin: 18px 0 8px;
+  font-family: Arial, sans-serif;
+}
+
+.continue-reading-hub a.button {
+  display: inline-block;
+}
